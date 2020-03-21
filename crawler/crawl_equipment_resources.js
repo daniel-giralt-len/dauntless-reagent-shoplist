@@ -48,14 +48,32 @@ const getEquipmentResources = $ => {
   return resourceTable
 }
 
+const getLanternResources = $ => {
+  const tuple = {
+    level: "Base",
+    requirements: []
+  }
+  const table = $('th:contains("Material")').parent().parent()
+  table.find('tr').map((i, tr) => {
+    if(i !== 0){
+      const c = $(tr).children()
+      const resourceName = c.get(0)
+      const resourceAmount = c.get(1)
+      tuple.requirements.push({
+        name: $(resourceName).text(),
+        amount: parseInt($(resourceAmount).text().split('x')[1]),
+      })
+    }
+  })
+  return [tuple]
+}
+
 const promises = equipmentNames.map(equipment => {
   const {name, type} = equipment
-  if(type !== 'lantern'){
     return getPageHtml(getUrl(name))
-        .then(getEquipmentResources)
+        .then($ => type === 'lantern' ? getLanternResources($) : getEquipmentResources($))
         .then(resources => ({...equipment, crafting: resources}))
         .catch(e=> console.log('error on', name, e.message))
-  }
 })
 
 Promise.all(promises).then(data => fs.writeFileSync('./crafting.json', JSON.stringify(data, null, 2)))
