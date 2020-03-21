@@ -1,0 +1,661 @@
+[
+  {
+    "name": "Recruit's Armour",
+    "type": "armor"
+  },
+  {
+    "name": "Gnasher Armour",
+    "type": "armor"
+  },
+  {
+    "name": "Shrike Armour",
+    "type": "armor"
+  },
+  {
+    "name": "Quillshot Armour",
+    "type": "armor"
+  },
+  {
+    "name": "Skarn Armour",
+    "type": "armor"
+  },
+  {
+    "name": "Charrogg Armour",
+    "type": "armor"
+  },
+  {
+    "name": "Embermane Armour",
+    "type": "armor"
+  },
+  {
+    "name": "Skraev Armour",
+    "type": "armor"
+  },
+  {
+    "name": "Drask Armour",
+    "type": "armor"
+  },
+  {
+    "name": "Nayzaga Armour",
+    "type": "armor"
+  },
+  {
+    "name": "Pangar Armour",
+    "type": "armor"
+  },
+  {
+    "name": "Hellion Armour",
+    "type": "armor"
+  },
+  {
+    "name": "Stormclaw Armour",
+    "type": "armor"
+  },
+  {
+    "name": "Kharabak Armour",
+    "type": "armor"
+  },
+  {
+    "name": "Rezakiri Armour",
+    "type": "armor"
+  },
+  {
+    "name": "Shrowd Armour",
+    "type": "armor"
+  },
+  {
+    "name": "Koshai Armour",
+    "type": "armor"
+  },
+  {
+    "name": "Riftstalker Armour",
+    "type": "armor"
+  },
+  {
+    "name": "Valomyr Armour",
+    "type": "armor"
+  },
+  {
+    "name": "Boreus Armour",
+    "type": "armor"
+  },
+  {
+    "name": "Malkarion Armour",
+    "type": "armor"
+  },
+  {
+    "name": "Prismatic Grace",
+    "type": "armor"
+  },
+  {
+    "name": "Tragic Echo",
+    "type": "armor"
+  },
+  {
+    "name": "The Skullforge",
+    "type": "armor"
+  },
+  {
+    "name": "Recruit's Axe",
+    "type": "axe"
+  },
+  {
+    "name": "Raging Bite",
+    "type": "axe"
+  },
+  {
+    "name": "Song of the Shrike",
+    "type": "axe"
+  },
+  {
+    "name": "Quillshot's Fury",
+    "type": "axe"
+  },
+  {
+    "name": "Skarn's Judgement",
+    "type": "axe"
+  },
+  {
+    "name": "Charred Cleaver",
+    "type": "axe"
+  },
+  {
+    "name": "Ember Scythe",
+    "type": "axe"
+  },
+  {
+    "name": "Winter Gale",
+    "type": "axe"
+  },
+  {
+    "name": "Thundering Scythe",
+    "type": "axe"
+  },
+  {
+    "name": "Nayzaga's Scythe",
+    "type": "axe"
+  },
+  {
+    "name": "Pangar's Grace",
+    "type": "axe"
+  },
+  {
+    "name": "Inferno's Decree",
+    "type": "axe"
+  },
+  {
+    "name": "Storm Cutter",
+    "type": "axe"
+  },
+  {
+    "name": "Kharabak's Claw",
+    "type": "axe"
+  },
+  {
+    "name": "Edge of Dawn",
+    "type": "axe"
+  },
+  {
+    "name": "Reaper of Night",
+    "type": "axe"
+  },
+  {
+    "name": "Sovereign's Wrath",
+    "type": "axe"
+  },
+  {
+    "name": "Stalker's Mercy",
+    "type": "axe"
+  },
+  {
+    "name": "Valomyr's Decree",
+    "type": "axe"
+  },
+  {
+    "name": "Turmoil of Boreus",
+    "type": "axe"
+  },
+  {
+    "name": "Terminal Voltage",
+    "type": "axe"
+  },
+  {
+    "name": "Recruit's Chain Blades",
+    "type": "chain blades"
+  },
+  {
+    "name": "Raging Teeth",
+    "type": "chain blades"
+  },
+  {
+    "name": "Flight of the Shrike",
+    "type": "chain blades"
+  },
+  {
+    "name": "Quillshot's Bonehooks",
+    "type": "chain blades"
+  },
+  {
+    "name": "Skarn's Malice",
+    "type": "chain blades"
+  },
+  {
+    "name": "Charred Blades",
+    "type": "chain blades"
+  },
+  {
+    "name": "Winter Winds",
+    "type": "chain blades"
+  },
+  {
+    "name": "Ember Blades",
+    "type": "chain blades"
+  },
+  {
+    "name": "Thundering Cutters",
+    "type": "chain blades"
+  },
+  {
+    "name": "Nayzaga's Reach",
+    "type": "chain blades"
+  },
+  {
+    "name": "Pangar's Claws",
+    "type": "chain blades"
+  },
+  {
+    "name": "Inferno's Fangs",
+    "type": "chain blades"
+  },
+  {
+    "name": "Storm Blades",
+    "type": "chain blades"
+  },
+  {
+    "name": "Kharabak's Wings",
+    "type": "chain blades"
+  },
+  {
+    "name": "Fangs of Dawn",
+    "type": "chain blades"
+  },
+  {
+    "name": "Eyes of Night",
+    "type": "chain blades"
+  },
+  {
+    "name": "Sovereign's Lash",
+    "type": "chain blades"
+  },
+  {
+    "name": "Stalker's Trap",
+    "type": "chain blades"
+  },
+  {
+    "name": "Valomyr's Revenge",
+    "type": "chain blades"
+  },
+  {
+    "name": "Destiny of Boreus",
+    "type": "chain blades"
+  },
+  {
+    "name": "Electric Cruelties",
+    "type": "chain blades"
+  },
+  {
+    "name": "Recruit's Hammer",
+    "type": "hammer"
+  },
+  {
+    "name": "Raging Crash",
+    "type": "hammer"
+  },
+  {
+    "name": "Fall of the Shrike",
+    "type": "hammer"
+  },
+  {
+    "name": "Quillshot's Roar‎",
+    "type": "hammer"
+  },
+  {
+    "name": "Skarn's Vengeance",
+    "type": "hammer"
+  },
+  {
+    "name": "Charred Crusher",
+    "type": "hammer"
+  },
+  {
+    "name": "Ember Maul",
+    "type": "hammer"
+  },
+  {
+    "name": "Winter Squall‎",
+    "type": "hammer"
+  },
+  {
+    "name": "Thundering Maul‎‎",
+    "type": "hammer"
+  },
+  {
+    "name": "Nayzaga's Charge‎",
+    "type": "hammer"
+  },
+  {
+    "name": "Pangar's Rampage",
+    "type": "hammer"
+  },
+  {
+    "name": "Inferno's Burden",
+    "type": "hammer"
+  },
+  {
+    "name": "Storm Hammer",
+    "type": "hammer"
+  },
+  {
+    "name": "Kharabak's Jaw",
+    "type": "hammer"
+  },
+  {
+    "name": "Break of Dawn",
+    "type": "hammer"
+  },
+  {
+    "name": "Fall of Night",
+    "type": "hammer"
+  },
+  {
+    "name": "Sovereign's Grudge",
+    "type": "hammer"
+  },
+  {
+    "name": "Stalker's Price",
+    "type": "hammer"
+  },
+  {
+    "name": "Valomyr's Burden",
+    "type": "hammer"
+  },
+  {
+    "name": "Brutality of Boreus",
+    "type": "hammer"
+  },
+  {
+    "name": "Galvanic Impact",
+    "type": "hammer"
+  },
+  {
+    "name": "Molten Edict",
+    "type": "hammer"
+  },
+  {
+    "name": "Training Sword",
+    "type": "sword"
+  },
+  {
+    "name": "Recruit's Sword",
+    "type": "sword"
+  },
+  {
+    "name": "Raging Blade",
+    "type": "sword"
+  },
+  {
+    "name": "Cry of the Shrike",
+    "type": "sword"
+  },
+  {
+    "name": "Quillshot's Tusk",
+    "type": "sword"
+  },
+  {
+    "name": "Skarn's Rancor",
+    "type": "sword"
+  },
+  {
+    "name": "Charred Saber",
+    "type": "sword"
+  },
+  {
+    "name": "Winter Ice",
+    "type": "sword"
+  },
+  {
+    "name": "Ember Cutlass",
+    "type": "sword"
+  },
+  {
+    "name": "Thundering Blade",
+    "type": "sword"
+  },
+  {
+    "name": "Nayzaga's Razor",
+    "type": "sword"
+  },
+  {
+    "name": "Pangar's Call",
+    "type": "sword"
+  },
+  {
+    "name": "Inferno's Razor",
+    "type": "sword"
+  },
+  {
+    "name": "Storm Sword",
+    "type": "sword"
+  },
+  {
+    "name": "Kharabak's Spur",
+    "type": "sword"
+  },
+  {
+    "name": "Call of Dawn",
+    "type": "sword"
+  },
+  {
+    "name": "Verge of Night",
+    "type": "sword"
+  },
+  {
+    "name": "Sovereign's Torment",
+    "type": "sword"
+  },
+  {
+    "name": "Stalker's Strike",
+    "type": "sword"
+  },
+  {
+    "name": "Valomyr's Regard",
+    "type": "sword"
+  },
+  {
+    "name": "Onus of Boreus",
+    "type": "sword"
+  },
+  {
+    "name": "Cyclonic Fury",
+    "type": "sword"
+  },
+  {
+    "name": "The Hunger",
+    "type": "sword"
+  },
+  {
+    "name": "Recruit's War Pike",
+    "type": "war pike"
+  },
+  {
+    "name": "Raging Cruelty",
+    "type": "war pike"
+  },
+  {
+    "name": "Scream of the Shrike",
+    "type": "war pike"
+  },
+  {
+    "name": "Quillshot's Javelin",
+    "type": "war pike"
+  },
+  {
+    "name": "Skarn's Spite",
+    "type": "war pike"
+  },
+  {
+    "name": "Charred Spear",
+    "type": "war pike"
+  },
+  {
+    "name": "Winter Vortex",
+    "type": "war pike"
+  },
+  {
+    "name": "Ember Pike",
+    "type": "war pike"
+  },
+  {
+    "name": "Thundering Spear",
+    "type": "war pike"
+  },
+  {
+    "name": "Nayzaga's Fang",
+    "type": "war pike"
+  },
+  {
+    "name": "Pangar's Tooth",
+    "type": "war pike"
+  },
+  {
+    "name": "Inferno's Arrow",
+    "type": "war pike"
+  },
+  {
+    "name": "Storm Pike",
+    "type": "war pike"
+  },
+  {
+    "name": "Kharabak's Sting",
+    "type": "war pike"
+  },
+  {
+    "name": "Spire of Dawn",
+    "type": "war pike"
+  },
+  {
+    "name": "Gyre of Night",
+    "type": "war pike"
+  },
+  {
+    "name": "Sovereign's Sorrow",
+    "type": "war pike"
+  },
+  {
+    "name": "Stalker's Spike",
+    "type": "war pike"
+  },
+  {
+    "name": "Valomyr's Hope",
+    "type": "war pike"
+  },
+  {
+    "name": "Revolution of Boreus",
+    "type": "war pike"
+  },
+  {
+    "name": "The Conductor",
+    "type": "war pike"
+  },
+  {
+    "name": "The Godhand",
+    "type": "war pike"
+  },
+  {
+    "name": "Recruit's Lantern",
+    "type": "lantern"
+  },
+  {
+    "name": "Drask's Eye",
+    "type": "lantern"
+  },
+  {
+    "name": "Embermane's Rapture",
+    "type": "lantern"
+  },
+  {
+    "name": "Pangar's Shine",
+    "type": "lantern"
+  },
+  {
+    "name": "Shrike's Zeal",
+    "type": "lantern"
+  },
+  {
+    "name": "Skarn's Defiance",
+    "type": "lantern"
+  },
+  {
+    "name": "Koshai's Bloom",
+    "type": "lantern"
+  },
+  {
+    "name": "Broadsides Lantern",
+    "type": "lantern"
+  },
+  {
+    "name": "Standard Barrel",
+    "type": "ostian repeaters",
+    "partType": "barrels"
+  },
+  {
+    "name": "Inferno Barrel",
+    "type": "ostian repeaters",
+    "partType": "barrels"
+  },
+  {
+    "name": "Blizzard Barrel",
+    "type": "ostian repeaters",
+    "partType": "barrels"
+  },
+  {
+    "name": "Storm Barrel",
+    "type": "ostian repeaters",
+    "partType": "barrels"
+  },
+  {
+    "name": "Twilight Barrel",
+    "type": "ostian repeaters",
+    "partType": "barrels"
+  },
+  {
+    "name": "Dawnstar Barrel",
+    "type": "ostian repeaters",
+    "partType": "barrels"
+  },
+  {
+    "name": "Sylvan Barrel",
+    "type": "ostian repeaters",
+    "partType": "barrels"
+  },
+  {
+    "name": "Dynamic Carbine",
+    "type": "ostian repeaters",
+    "partType": "barrels"
+  },
+  {
+    "name": "Salvo Chamber",
+    "type": "ostian repeaters",
+    "partType": "chambers"
+  },
+  {
+    "name": "Marksman Chamber",
+    "type": "ostian repeaters",
+    "partType": "chambers"
+  },
+  {
+    "name": "Full-Bore Chamber",
+    "type": "ostian repeaters",
+    "partType": "chambers"
+  },
+  {
+    "name": "Captain's Grip",
+    "type": "ostian repeaters",
+    "partType": "grips"
+  },
+  {
+    "name": "Saboteur's Grip",
+    "type": "ostian repeaters",
+    "partType": "grips"
+  },
+  {
+    "name": "Eclipse Prism",
+    "type": "ostian repeaters",
+    "partType": "prisms"
+  },
+  {
+    "name": "Stoneheart Prism",
+    "type": "ostian repeaters",
+    "partType": "prisms"
+  },
+  {
+    "name": "Brilliant Prism",
+    "type": "ostian repeaters",
+    "partType": "prisms"
+  },
+  {
+    "name": "Searing Prism",
+    "type": "ostian repeaters",
+    "partType": "prisms"
+  },
+  {
+    "name": "Snowdrift Prism",
+    "type": "ostian repeaters",
+    "partType": "prisms"
+  },
+  {
+    "name": "Glacial Prism",
+    "type": "ostian repeaters",
+    "partType": "prisms"
+  }
+]

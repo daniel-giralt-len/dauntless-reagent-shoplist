@@ -1,0 +1,1 @@
+module.exports = subPath => encodeURI(`https://dauntless.gamepedia.com/${subPath.replace(/ /gm, "_")}`)
