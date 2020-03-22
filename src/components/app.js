@@ -5,6 +5,7 @@ import preactLocalStorage from 'preact-localstorage'
 import CraftableItemList from './craftableItemList'
 import Header from './header'
 import ReagentList from './reagentList'
+import Footer from './footer'
 
 import craftableItems from '../assets/crafting.json'
 import filterNames from '../assets/filters.json'
@@ -140,6 +141,7 @@ const App = () => {
 					onItemLevelChange={onItemLevelChange}
 				/>
 			</MainWrapper>
+			<Footer/>
 		</div>
 	);
 }
