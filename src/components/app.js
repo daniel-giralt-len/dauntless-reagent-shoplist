@@ -5,14 +5,14 @@ import Header from './header'
 
 import craftableItems from '../assets/crafting.json'
 import filterNames from '../assets/filters.json'
-import CraftableItem from './craftableItem'
 
-
+const getFilteredItems = ({itemList, filters}) => itemList
+		.filter(({type, partType}) => filters.includes(partType ? partType : type))
 
 const getAvailableLevels = (craftingList) => (['Not crafted', ...craftingList.map(c => c.level)])
 
 const addItemResources = ({itemList, filters}) => {
-	const accountableItems = Object.values(itemList)
+	const accountableItems =itemList
 		.filter(({type, partType}) => filters.includes(partType ? partType : type))
 	return Object.values(accountableItems).reduce((acc, item) => {
 		Object.entries(item.remainingResources).forEach(([resourceName, resourceAmount]) => {
@@ -87,12 +87,17 @@ const App = () => {
 
 	useEffect(() => {
 		const totalResources = addItemResources({
-			itemList: items, 
+			itemList: Object.values(items), 
 			filters: getActiveFilters(filters)
 		})
 		setTotalRemainingResources(totalResources)
 		console.log(totalResources)
 	}, [items, filters])
+
+	const renderableItems = getFilteredItems({
+		itemList: Object.values(items),
+		filters: getActiveFilters(filters)
+	})
 
 	return (
 		<div id="app">
@@ -102,7 +107,7 @@ const App = () => {
 				totalResources={totalRemainingResources}
 			/>
 			<CraftableItemList 
-				items={items}
+				items={renderableItems}
 				onItemLevelChange={onItemLevelChange}
 			/>
 		</div>
