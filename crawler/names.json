@@ -96,6 +96,38 @@
     "type": "armor"
   },
   {
+    "name": "Recruit's Lantern",
+    "type": "lantern"
+  },
+  {
+    "name": "Drask's Eye",
+    "type": "lantern"
+  },
+  {
+    "name": "Embermane's Rapture",
+    "type": "lantern"
+  },
+  {
+    "name": "Pangar's Shine",
+    "type": "lantern"
+  },
+  {
+    "name": "Shrike's Zeal",
+    "type": "lantern"
+  },
+  {
+    "name": "Skarn's Defiance",
+    "type": "lantern"
+  },
+  {
+    "name": "Koshai's Bloom",
+    "type": "lantern"
+  },
+  {
+    "name": "Broadsides Lantern",
+    "type": "lantern"
+  },
+  {
     "name": "Recruit's Axe",
     "type": "axe"
   },
@@ -614,38 +646,6 @@
   {
     "name": "Mistral Currents",
     "type": "aether strikers"
-  },
-  {
-    "name": "Recruit's Lantern",
-    "type": "lantern"
-  },
-  {
-    "name": "Drask's Eye",
-    "type": "lantern"
-  },
-  {
-    "name": "Embermane's Rapture",
-    "type": "lantern"
-  },
-  {
-    "name": "Pangar's Shine",
-    "type": "lantern"
-  },
-  {
-    "name": "Shrike's Zeal",
-    "type": "lantern"
-  },
-  {
-    "name": "Skarn's Defiance",
-    "type": "lantern"
-  },
-  {
-    "name": "Koshai's Bloom",
-    "type": "lantern"
-  },
-  {
-    "name": "Broadsides Lantern",
-    "type": "lantern"
   },
   {
     "name": "Standard Barrel",

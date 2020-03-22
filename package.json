@@ -11,7 +11,9 @@
     "serve": "preact build && sirv build --cors --single",
     "dev": "preact watch",
     "lint": "eslint src",
-    "test": "jest"
+    "test": "jest",
+    "crawl": "cd crawler && node crawl_equipment_names.js && node crawl_equipment_resources.js && node get_type_filters.js && yarn updateCrawledData",
+    "updateCrawledData": "cp -f crawler/crafting.json src/assets && cp -f crawler/filters.json src/assets"
   },
   "eslintConfig": {
     "extends": "preact",

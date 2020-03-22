@@ -6120,6 +6120,192 @@
     ]
   },
   {
+    "name": "Recruit's Lantern",
+    "type": "lantern",
+    "crafting": [
+      {
+        "level": "Base",
+        "requirements": []
+      }
+    ]
+  },
+  {
+    "name": "Drask's Eye",
+    "type": "lantern",
+    "crafting": [
+      {
+        "level": "Base",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 500
+          },
+          {
+            "name": "Fractal Eyetooth",
+            "amount": 1
+          },
+          {
+            "name": "Electroscale",
+            "amount": 1
+          },
+          {
+            "name": "Drask Hide",
+            "amount": 3
+          },
+          {
+            "name": "Jagged Sparkscale",
+            "amount": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Embermane's Rapture",
+    "type": "lantern",
+    "crafting": [
+      {
+        "level": "Base",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 400
+          },
+          {
+            "name": "Emberhorn",
+            "amount": 1
+          },
+          {
+            "name": "Burning Tailspike",
+            "amount": 1
+          },
+          {
+            "name": "Embermane Hide",
+            "amount": 5
+          },
+          {
+            "name": "Smoked Dewclaw",
+            "amount": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pangar's Shine",
+    "type": "lantern",
+    "crafting": [
+      {
+        "level": "Base",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Frosted Tailplate",
+            "amount": 1
+          },
+          {
+            "name": "Icy Browplate",
+            "amount": 1
+          },
+          {
+            "name": "Pangar Scale",
+            "amount": 3
+          },
+          {
+            "name": "Frozen Hindplate",
+            "amount": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Shrike's Zeal",
+    "type": "lantern",
+    "crafting": [
+      {
+        "level": "Base",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 200
+          },
+          {
+            "name": "Torn Shrikefeather",
+            "amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Skarn's Defiance",
+    "type": "lantern",
+    "crafting": [
+      {
+        "level": "Base",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 200
+          },
+          {
+            "name": "Rockscale",
+            "amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Koshai's Bloom",
+    "type": "lantern",
+    "crafting": [
+      {
+        "level": "Base",
+        "requirements": [
+          {
+            "name": "Notes",
+            "amount": 800
+          },
+          {
+            "name": "Aether Thorn",
+            "amount": 2
+          },
+          {
+            "name": "Bramblespur",
+            "amount": 1
+          },
+          {
+            "name": "Caudal Thorn",
+            "amount": 1
+          },
+          {
+            "name": "Splintered Antler",
+            "amount": 1
+          },
+          {
+            "name": "Vinetooth",
+            "amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Broadsides Lantern",
+    "type": "lantern",
+    "crafting": [
+      {
+        "level": "Base",
+        "requirements": []
+      }
+    ]
+  },
+  {
     "name": "Recruit's Axe",
     "type": "axe",
     "crafting": []
@@ -37793,192 +37979,6 @@
             "amount": 40
           }
         ]
-      }
-    ]
-  },
-  {
-    "name": "Recruit's Lantern",
-    "type": "lantern",
-    "crafting": [
-      {
-        "level": "Base",
-        "requirements": []
-      }
-    ]
-  },
-  {
-    "name": "Drask's Eye",
-    "type": "lantern",
-    "crafting": [
-      {
-        "level": "Base",
-        "requirements": [
-          {
-            "name": "Rams",
-            "amount": 500
-          },
-          {
-            "name": "Fractal Eyetooth",
-            "amount": 1
-          },
-          {
-            "name": "Electroscale",
-            "amount": 1
-          },
-          {
-            "name": "Drask Hide",
-            "amount": 3
-          },
-          {
-            "name": "Jagged Sparkscale",
-            "amount": 2
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Embermane's Rapture",
-    "type": "lantern",
-    "crafting": [
-      {
-        "level": "Base",
-        "requirements": [
-          {
-            "name": "Rams",
-            "amount": 400
-          },
-          {
-            "name": "Emberhorn",
-            "amount": 1
-          },
-          {
-            "name": "Burning Tailspike",
-            "amount": 1
-          },
-          {
-            "name": "Embermane Hide",
-            "amount": 5
-          },
-          {
-            "name": "Smoked Dewclaw",
-            "amount": 2
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Pangar's Shine",
-    "type": "lantern",
-    "crafting": [
-      {
-        "level": "Base",
-        "requirements": [
-          {
-            "name": "Rams",
-            "amount": 600
-          },
-          {
-            "name": "Frosted Tailplate",
-            "amount": 1
-          },
-          {
-            "name": "Icy Browplate",
-            "amount": 1
-          },
-          {
-            "name": "Pangar Scale",
-            "amount": 3
-          },
-          {
-            "name": "Frozen Hindplate",
-            "amount": 2
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Shrike's Zeal",
-    "type": "lantern",
-    "crafting": [
-      {
-        "level": "Base",
-        "requirements": [
-          {
-            "name": "Rams",
-            "amount": 200
-          },
-          {
-            "name": "Torn Shrikefeather",
-            "amount": 1
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Skarn's Defiance",
-    "type": "lantern",
-    "crafting": [
-      {
-        "level": "Base",
-        "requirements": [
-          {
-            "name": "Rams",
-            "amount": 200
-          },
-          {
-            "name": "Rockscale",
-            "amount": 1
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Koshai's Bloom",
-    "type": "lantern",
-    "crafting": [
-      {
-        "level": "Base",
-        "requirements": [
-          {
-            "name": "Notes",
-            "amount": 800
-          },
-          {
-            "name": "Aether Thorn",
-            "amount": 2
-          },
-          {
-            "name": "Bramblespur",
-            "amount": 1
-          },
-          {
-            "name": "Caudal Thorn",
-            "amount": 1
-          },
-          {
-            "name": "Splintered Antler",
-            "amount": 1
-          },
-          {
-            "name": "Vinetooth",
-            "amount": 1
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Broadsides Lantern",
-    "type": "lantern",
-    "crafting": [
-      {
-        "level": "Base",
-        "requirements": []
       }
     ]
   },
