@@ -6,7 +6,9 @@ const GridList = styled.ul`
 	list-style-type: none;
 	padding: 0;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, 200px);
+  grid-template-columns: repeat(auto-fit, 250px);
+  row-gap: 15px;
+  column-gap: 5px;
 ` 
 
 const CraftableItemList = ({items, onItemLevelChange}) => (

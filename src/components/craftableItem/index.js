@@ -8,11 +8,11 @@ const ItemTypeIcon = styled.img`
 `
 
 const ListItemWrapper = styled.div`
-  display: grid;
-  grid-template-areas:
-    "current-level"
-    "name";
-  border: 1px solid black;
+  background: linear-gradient(180deg, #26546b, #0e2836);
+  border-width: 2px;
+  border-style: solid;
+  border-color: #d0d9de #a5adb1 #777e83;
+  padding: 10px 6px;
 `
 
 const TitleWrapper = styled.h2`
@@ -27,20 +27,20 @@ const CraftableItem = ({item, onItemLevelChange}) => {
   const {name, type, partType, remainingReagents, currentLevelIndex, availableLevels} = item
   const onSliderChange = newLevel => onItemLevelChange({name, levelIndex: newLevel})
 	return (<ListItemWrapper>
-    <TitleWrapper>
-      <div style={{gridArea: 'name'}}>{name}</div>
-      <ItemTypeIcon
-        src={filterIcons[type]}
-        alt={partType ? `${type} (${partType})` : type}
-      />
-    </TitleWrapper>
-    <div style={{gridArea: 'current-level'}}>
+    <div>
       <IntegerRange 
         index={currentLevelIndex}
         range={availableLevels}
         onSliderChange={onSliderChange}
       />
     </div>
+    <TitleWrapper>
+      <div>{name}</div>
+      <ItemTypeIcon
+        src={filterIcons[type]}
+        alt={partType ? `${type} (${partType})` : type}
+      />
+    </TitleWrapper>
     <ReagentList reagents={remainingReagents} />
   </ListItemWrapper>)
 };
