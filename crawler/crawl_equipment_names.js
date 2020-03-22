@@ -7,7 +7,8 @@ const normalEquipment = [
   'Chain Blades',
   'Hammer',
   'Sword',
-  'War Pike'
+  'War Pike',
+  'Aether_Strikers'
 ]
 
 const lanternEquipment = 'Lanterns'
@@ -36,7 +37,7 @@ const getAllNames = async () => {
    .then(responses => responses.map(getNormalEquipmentNames))
    .then(nameLists => {
      nameLists.map((list, index) => {
-       list.map(newName => names.push({name: newName, type: normalEquipment[index].toLowerCase()}))
+       list.map(newName => names.push({name: newName, type: normalEquipment[index].replace(/_/gm, " ").toLowerCase()}))
      })
    })
  

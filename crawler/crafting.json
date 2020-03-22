@@ -32871,6 +32871,4932 @@
     ]
   },
   {
+    "name": "Recruit's Strikers",
+    "type": "aether strikers",
+    "crafting": []
+  },
+  {
+    "name": "Raging Fists",
+    "type": "aether strikers",
+    "crafting": [
+      {
+        "level": "Base",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 150
+          },
+          {
+            "name": "Gnasher Hide",
+            "amount": 2
+          },
+          {
+            "name": "Ragetooth",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "level": "+1",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 40
+          },
+          {
+            "name": "Neutral Orb",
+            "amount": 7
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 60
+          },
+          {
+            "name": "Neutral Orb",
+            "amount": 7
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 100
+          },
+          {
+            "name": "Neutral Orb",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 140
+          },
+          {
+            "name": "Neutral Orb",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 160
+          },
+          {
+            "name": "Neutral Orb",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 220
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 12
+          },
+          {
+            "name": "Furious Ragescale",
+            "amount": 3
+          },
+          {
+            "name": "Ragetooth",
+            "amount": 2
+          },
+          {
+            "name": "Neutral Orb",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 240
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 15
+          },
+          {
+            "name": "Neutral Orb",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 290
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 18
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 20
+          },
+          {
+            "name": "Neutral Orb",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 350
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 21
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 40
+          },
+          {
+            "name": "Neutral Orb",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 400
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 24
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 60
+          },
+          {
+            "name": "Ragesoul Shard",
+            "amount": 2
+          },
+          {
+            "name": "Furious Ragescale",
+            "amount": 5
+          },
+          {
+            "name": "Ragetooth",
+            "amount": 3
+          },
+          {
+            "name": "Neutral Orb",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+11",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 20
+          }
+        ]
+      },
+      {
+        "level": "+12",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 25
+          }
+        ]
+      },
+      {
+        "level": "+13",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 30
+          }
+        ]
+      },
+      {
+        "level": "+14",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 35
+          }
+        ]
+      },
+      {
+        "level": "+15",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fists of the Shrike",
+    "type": "aether strikers",
+    "crafting": [
+      {
+        "level": "Base",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 150
+          },
+          {
+            "name": "Torn Shrikefeather",
+            "amount": 3
+          },
+          {
+            "name": "Razor Beak",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "level": "+1",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 40
+          },
+          {
+            "name": "Neutral Orb",
+            "amount": 7
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 60
+          },
+          {
+            "name": "Neutral Orb",
+            "amount": 7
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 100
+          },
+          {
+            "name": "Neutral Orb",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 140
+          },
+          {
+            "name": "Neutral Orb",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 160
+          },
+          {
+            "name": "Neutral Orb",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 220
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 12
+          },
+          {
+            "name": "Pristine Moonfeather",
+            "amount": 4
+          },
+          {
+            "name": "Shrike Tailfeather",
+            "amount": 2
+          },
+          {
+            "name": "Neutral Orb",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 240
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 15
+          },
+          {
+            "name": "Neutral Orb",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 290
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 15
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 20
+          },
+          {
+            "name": "Neutral Orb",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 350
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 21
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 40
+          },
+          {
+            "name": "Neutral Orb",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 350
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 24
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 60
+          },
+          {
+            "name": "Windsoul Shard",
+            "amount": 2
+          },
+          {
+            "name": "Pristine Moonfeather",
+            "amount": 6
+          },
+          {
+            "name": "Shrikedown",
+            "amount": 6
+          },
+          {
+            "name": "Shrike Bladefeather",
+            "amount": 6
+          },
+          {
+            "name": "Neutral Orb",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+11",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 20
+          }
+        ]
+      },
+      {
+        "level": "+12",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 25
+          }
+        ]
+      },
+      {
+        "level": "+13",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 30
+          }
+        ]
+      },
+      {
+        "level": "+14",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 35
+          }
+        ]
+      },
+      {
+        "level": "+15",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Quillshot's Shredders",
+    "type": "aether strikers",
+    "crafting": [
+      {
+        "level": "Base",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 150
+          },
+          {
+            "name": "Quillshot Hide",
+            "amount": 2
+          },
+          {
+            "name": "Quillshard",
+            "amount": 6
+          },
+          {
+            "name": "Jagged Tailspike",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "level": "+1",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 40
+          },
+          {
+            "name": "Neutral Orb",
+            "amount": 7
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 60
+          },
+          {
+            "name": "Neutral Orb",
+            "amount": 7
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 100
+          },
+          {
+            "name": "Neutral Orb",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 140
+          },
+          {
+            "name": "Neutral Orb",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 160
+          },
+          {
+            "name": "Neutral Orb",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 220
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 12
+          },
+          {
+            "name": "Deadeye Spinehide",
+            "amount": 3
+          },
+          {
+            "name": "Dewspine",
+            "amount": 4
+          },
+          {
+            "name": "Neutral Orb",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 240
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 15
+          },
+          {
+            "name": "Neutral Orb",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 290
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 18
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 20
+          },
+          {
+            "name": "Neutral Orb",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 350
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 21
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 40
+          },
+          {
+            "name": "Neutral Orb",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 400
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 24
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 60
+          },
+          {
+            "name": "Impaler Shard",
+            "amount": 2
+          },
+          {
+            "name": "Quillshot Tusk",
+            "amount": 6
+          },
+          {
+            "name": "Neutral Orb",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+11",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 20
+          }
+        ]
+      },
+      {
+        "level": "+12",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 25
+          }
+        ]
+      },
+      {
+        "level": "+13",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 30
+          }
+        ]
+      },
+      {
+        "level": "+14",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 35
+          }
+        ]
+      },
+      {
+        "level": "+15",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Skarn's Smashers",
+    "type": "aether strikers",
+    "crafting": [
+      {
+        "level": "Base",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 150
+          },
+          {
+            "name": "Rockscale",
+            "amount": 2
+          },
+          {
+            "name": "Browscale",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "level": "+1",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 40
+          },
+          {
+            "name": "Terra Orb",
+            "amount": 7
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 60
+          },
+          {
+            "name": "Terra Orb",
+            "amount": 7
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 100
+          },
+          {
+            "name": "Terra Orb",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 140
+          },
+          {
+            "name": "Terra Orb",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 160
+          },
+          {
+            "name": "Terra Orb",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 220
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 12
+          },
+          {
+            "name": "Adamantine Scale",
+            "amount": 3
+          },
+          {
+            "name": "Stone Fragments",
+            "amount": 8
+          },
+          {
+            "name": "Terra Orb",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 240
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 15
+          },
+          {
+            "name": "Terra Orb",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 290
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 18
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 20
+          },
+          {
+            "name": "Terra Orb",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 350
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 21
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 40
+          },
+          {
+            "name": "Terra Orb",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 400
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 24
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 60
+          },
+          {
+            "name": "Stoneheart Shard",
+            "amount": 2
+          },
+          {
+            "name": "Stony Hide",
+            "amount": 6
+          },
+          {
+            "name": "Terra Orb",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+11",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 20
+          }
+        ]
+      },
+      {
+        "level": "+12",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 25
+          }
+        ]
+      },
+      {
+        "level": "+13",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 30
+          }
+        ]
+      },
+      {
+        "level": "+14",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 35
+          }
+        ]
+      },
+      {
+        "level": "+15",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Charred Hands",
+    "type": "aether strikers",
+    "crafting": []
+  },
+  {
+    "name": "Winter Wolves",
+    "type": "aether strikers",
+    "crafting": [
+      {
+        "level": "Base",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 150
+          },
+          {
+            "name": "Skraev Feather",
+            "amount": 3
+          },
+          {
+            "name": "Chillclaw",
+            "amount": 4
+          }
+        ]
+      },
+      {
+        "level": "+1",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 40
+          },
+          {
+            "name": "Frost Orb",
+            "amount": 7
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 60
+          },
+          {
+            "name": "Frost Orb",
+            "amount": 7
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 100
+          },
+          {
+            "name": "Frost Orb",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 140
+          },
+          {
+            "name": "Frost Orb",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 160
+          },
+          {
+            "name": "Frost Orb",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 220
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 12
+          },
+          {
+            "name": "Frostmantle",
+            "amount": 4
+          },
+          {
+            "name": "Shattered Frostbeak",
+            "amount": 2
+          },
+          {
+            "name": "Frost Orb",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 240
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 15
+          },
+          {
+            "name": "Frost Orb",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 290
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 18
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 20
+          },
+          {
+            "name": "Frost Orb",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 350
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 21
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 40
+          },
+          {
+            "name": "Frost Orb",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 400
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 24
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 60
+          },
+          {
+            "name": "Iceshatter Shard",
+            "amount": 2
+          },
+          {
+            "name": "Skraev Feather",
+            "amount": 8
+          },
+          {
+            "name": "Shattered Frostbeak",
+            "amount": 3
+          },
+          {
+            "name": "Skraev Tailfeather",
+            "amount": 3
+          },
+          {
+            "name": "Frost Orb",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+11",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 20
+          }
+        ]
+      },
+      {
+        "level": "+12",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 25
+          }
+        ]
+      },
+      {
+        "level": "+13",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 30
+          }
+        ]
+      },
+      {
+        "level": "+14",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 35
+          }
+        ]
+      },
+      {
+        "level": "+15",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ember Fists",
+    "type": "aether strikers",
+    "crafting": [
+      {
+        "level": "Base",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 150
+          },
+          {
+            "name": "Embermane Hide",
+            "amount": 2
+          },
+          {
+            "name": "Savage Hooktooth",
+            "amount": 1
+          },
+          {
+            "name": "Burning Tailspike",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "level": "+1",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 40
+          },
+          {
+            "name": "Blaze Orb",
+            "amount": 7
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 60
+          },
+          {
+            "name": "Blaze Orb",
+            "amount": 7
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 100
+          },
+          {
+            "name": "Blaze Orb",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 140
+          },
+          {
+            "name": "Blaze Orb",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 160
+          },
+          {
+            "name": "Blaze Orb",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 220
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 12
+          },
+          {
+            "name": "Smoldering Bloodhide",
+            "amount": 3
+          },
+          {
+            "name": "Emberhorn",
+            "amount": 2
+          },
+          {
+            "name": "Blaze Orb",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 240
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 15
+          },
+          {
+            "name": "Blaze Orb",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 290
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 18
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 20
+          },
+          {
+            "name": "Blaze Orb",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 350
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 21
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 40
+          },
+          {
+            "name": "Blaze Orb",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 400
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 24
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 60
+          },
+          {
+            "name": "Bloodsoul Shard",
+            "amount": 2
+          },
+          {
+            "name": "Smoked Dewclaw",
+            "amount": 6
+          },
+          {
+            "name": "Blaze Orb",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+11",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 20
+          }
+        ]
+      },
+      {
+        "level": "+12",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 25
+          }
+        ]
+      },
+      {
+        "level": "+13",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 30
+          }
+        ]
+      },
+      {
+        "level": "+14",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 35
+          }
+        ]
+      },
+      {
+        "level": "+15",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Thundering Bolts",
+    "type": "aether strikers",
+    "crafting": [
+      {
+        "level": "Base",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 150
+          },
+          {
+            "name": "Drask Hide",
+            "amount": 3
+          },
+          {
+            "name": "Fractal Eyetooth",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "level": "+1",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 40
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 7
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 60
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 7
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 100
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 140
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 160
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 220
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 12
+          },
+          {
+            "name": "Thundering Scale",
+            "amount": 4
+          },
+          {
+            "name": "Fractal Eyetooth",
+            "amount": 2
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 240
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 15
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 290
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 18
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 20
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 350
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 21
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 40
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 400
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 24
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 60
+          },
+          {
+            "name": "Thundersoul Shard",
+            "amount": 2
+          },
+          {
+            "name": "Thundering Scale",
+            "amount": 6
+          },
+          {
+            "name": "Fractal Eyetooth",
+            "amount": 3
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+11",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 20
+          }
+        ]
+      },
+      {
+        "level": "+12",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 25
+          }
+        ]
+      },
+      {
+        "level": "+13",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 30
+          }
+        ]
+      },
+      {
+        "level": "+14",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 35
+          }
+        ]
+      },
+      {
+        "level": "+15",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nayzaga's Shockers",
+    "type": "aether strikers",
+    "crafting": [
+      {
+        "level": "Base",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 150
+          },
+          {
+            "name": "Nayzaga Chitin",
+            "amount": 3
+          },
+          {
+            "name": "Shocktooth",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "level": "+1",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 40
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 7
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 60
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 7
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 100
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 140
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 160
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 190
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 12
+          },
+          {
+            "name": "Conductive Shockspine",
+            "amount": 4
+          },
+          {
+            "name": "Shocktooth",
+            "amount": 2
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 240
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 15
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 290
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 18
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 20
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 350
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 21
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 40
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 400
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 24
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 60
+          },
+          {
+            "name": "Shockheart Shard",
+            "amount": 2
+          },
+          {
+            "name": "Conductive Shockspine",
+            "amount": 6
+          },
+          {
+            "name": "Shocktooth",
+            "amount": 3
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+11",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 20
+          }
+        ]
+      },
+      {
+        "level": "+12",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 25
+          }
+        ]
+      },
+      {
+        "level": "+13",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 30
+          }
+        ]
+      },
+      {
+        "level": "+14",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 35
+          }
+        ]
+      },
+      {
+        "level": "+15",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pangar's Punishers",
+    "type": "aether strikers",
+    "crafting": [
+      {
+        "level": "Base",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 150
+          },
+          {
+            "name": "Pangar Scale",
+            "amount": 4
+          },
+          {
+            "name": "Icy Browplate",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "level": "+1",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 40
+          },
+          {
+            "name": "Frost Orb",
+            "amount": 7
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 60
+          },
+          {
+            "name": "Frost Orb",
+            "amount": 7
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 100
+          },
+          {
+            "name": "Frost Orb",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 140
+          },
+          {
+            "name": "Frost Orb",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 160
+          },
+          {
+            "name": "Frost Orb",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 220
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 12
+          },
+          {
+            "name": "Icy Frostback Scale",
+            "amount": 5
+          },
+          {
+            "name": "Icy Browplate",
+            "amount": 2
+          },
+          {
+            "name": "Frost Orb",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 240
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 15
+          },
+          {
+            "name": "Frost Orb",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 290
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 18
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 20
+          },
+          {
+            "name": "Frost Orb",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 350
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 21
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 40
+          },
+          {
+            "name": "Frost Orb",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 400
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 24
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 60
+          },
+          {
+            "name": "Frostsoul Shard",
+            "amount": 2
+          },
+          {
+            "name": "Icy Frostback Scale",
+            "amount": 7
+          },
+          {
+            "name": "Icy Browplate",
+            "amount": 3
+          },
+          {
+            "name": "Frost Orb",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+11",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 20
+          }
+        ]
+      },
+      {
+        "level": "+12",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 25
+          }
+        ]
+      },
+      {
+        "level": "+13",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 30
+          }
+        ]
+      },
+      {
+        "level": "+14",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 35
+          }
+        ]
+      },
+      {
+        "level": "+15",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Inferno's Flames",
+    "type": "aether strikers",
+    "crafting": [
+      {
+        "level": "Base",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 150
+          },
+          {
+            "name": "Hellhide",
+            "amount": 4
+          },
+          {
+            "name": "Charred Browplate",
+            "amount": 2
+          },
+          {
+            "name": "Charred Tailplate",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "level": "+1",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 40
+          },
+          {
+            "name": "Blaze Orb",
+            "amount": 7
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 60
+          },
+          {
+            "name": "Blaze Orb",
+            "amount": 7
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 100
+          },
+          {
+            "name": "Blaze Orb",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 140
+          },
+          {
+            "name": "Blaze Orb",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 160
+          },
+          {
+            "name": "Blaze Orb",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 220
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 12
+          },
+          {
+            "name": "Scorchscale",
+            "amount": 5
+          },
+          {
+            "name": "Charred Browplate",
+            "amount": 2
+          },
+          {
+            "name": "Blaze Orb",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 240
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 15
+          },
+          {
+            "name": "Blaze Orb",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 290
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 18
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 20
+          },
+          {
+            "name": "Blaze Orb",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 350
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 21
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 40
+          },
+          {
+            "name": "Blaze Orb",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 400
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 24
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 60
+          },
+          {
+            "name": "Hellstone Shard",
+            "amount": 2
+          },
+          {
+            "name": "Scorchscale",
+            "amount": 7
+          },
+          {
+            "name": "Burned Hindscale",
+            "amount": 6
+          },
+          {
+            "name": "Charred Browplate",
+            "amount": 3
+          },
+          {
+            "name": "Blaze Orb",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+11",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 20
+          }
+        ]
+      },
+      {
+        "level": "+12",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 25
+          }
+        ]
+      },
+      {
+        "level": "+13",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 30
+          }
+        ]
+      },
+      {
+        "level": "+14",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 35
+          }
+        ]
+      },
+      {
+        "level": "+15",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Storm Breakers",
+    "type": "aether strikers",
+    "crafting": [
+      {
+        "level": "Base",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 150
+          },
+          {
+            "name": "Stormclaw Hide",
+            "amount": 4
+          },
+          {
+            "name": "Capacitail",
+            "amount": 2
+          },
+          {
+            "name": "Conductive Antler",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "level": "+1",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 40
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 7
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 60
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 7
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 100
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 140
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 160
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 220
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 12
+          },
+          {
+            "name": "Voltscale",
+            "amount": 5
+          },
+          {
+            "name": "Glinttooth",
+            "amount": 2
+          },
+          {
+            "name": "Capacitail",
+            "amount": 2
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 240
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 15
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 290
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 18
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 20
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 350
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 21
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 40
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 400
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 24
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 60
+          },
+          {
+            "name": "Stormheart Shard",
+            "amount": 2
+          },
+          {
+            "name": "Volthoof",
+            "amount": 6
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+11",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 20
+          }
+        ]
+      },
+      {
+        "level": "+12",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 25
+          }
+        ]
+      },
+      {
+        "level": "+13",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 30
+          }
+        ]
+      },
+      {
+        "level": "+14",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 35
+          }
+        ]
+      },
+      {
+        "level": "+15",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kharabak's Pincers",
+    "type": "aether strikers",
+    "crafting": [
+      {
+        "level": "Base",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 150
+          },
+          {
+            "name": "Kharabak Chitin",
+            "amount": 4
+          },
+          {
+            "name": "Claw Shell Fragment",
+            "amount": 6
+          }
+        ]
+      },
+      {
+        "level": "+1",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 40
+          },
+          {
+            "name": "Terra Orb",
+            "amount": 7
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 60
+          },
+          {
+            "name": "Terra Orb",
+            "amount": 7
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 100
+          },
+          {
+            "name": "Terra Orb",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 140
+          },
+          {
+            "name": "Terra Orb",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 160
+          },
+          {
+            "name": "Terra Orb",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 220
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 12
+          },
+          {
+            "name": "Sleek Razorwing Chitin",
+            "amount": 5
+          },
+          {
+            "name": "Deadly Ovipositor",
+            "amount": 2
+          },
+          {
+            "name": "Terra Orb",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 240
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 15
+          },
+          {
+            "name": "Terra Orb",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 290
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 18
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 20
+          },
+          {
+            "name": "Terra Orb",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 350
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 21
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 40
+          },
+          {
+            "name": "Terra Orb",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 400
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 24
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 60
+          },
+          {
+            "name": "Assassin Soul Shard",
+            "amount": 2
+          },
+          {
+            "name": "Sleek Razorwing Chitin",
+            "amount": 7
+          },
+          {
+            "name": "Kharabak Chitin",
+            "amount": 8
+          },
+          {
+            "name": "Terra Orb",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+11",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 20
+          }
+        ]
+      },
+      {
+        "level": "+12",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 25
+          }
+        ]
+      },
+      {
+        "level": "+13",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 30
+          }
+        ]
+      },
+      {
+        "level": "+14",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 35
+          }
+        ]
+      },
+      {
+        "level": "+15",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hands of Dawn",
+    "type": "aether strikers",
+    "crafting": [
+      {
+        "level": "Base",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 150
+          },
+          {
+            "name": "Rezakiri Chitin",
+            "amount": 4
+          },
+          {
+            "name": "Lustrous Tailplate",
+            "amount": 2
+          },
+          {
+            "name": "Radiant Aethergem",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "level": "+1",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 40
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 6
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 60
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 100
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 140
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 160
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 220
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 13
+          },
+          {
+            "name": "Luminescent Chitin",
+            "amount": 5
+          },
+          {
+            "name": "Exoskeletal Plate",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 240
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 14
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 290
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 15
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 25
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 350
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 18
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 50
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 400
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 23
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 75
+          },
+          {
+            "name": "Cataclysm Shard",
+            "amount": 2
+          },
+          {
+            "name": "Cracked Biocrystal",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "level": "+11",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 20
+          }
+        ]
+      },
+      {
+        "level": "+12",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 25
+          }
+        ]
+      },
+      {
+        "level": "+13",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 30
+          }
+        ]
+      },
+      {
+        "level": "+14",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 35
+          }
+        ]
+      },
+      {
+        "level": "+15",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hands of Night",
+    "type": "aether strikers",
+    "crafting": [
+      {
+        "level": "Base",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 150
+          },
+          {
+            "name": "Shrowd Feather",
+            "amount": 4
+          },
+          {
+            "name": "Darkbeak Fragment",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "level": "+1",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 40
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 6
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 60
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 100
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 140
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 160
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 220
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 13
+          },
+          {
+            "name": "Corrupted Voidfeather",
+            "amount": 5
+          },
+          {
+            "name": "Dark Tailfeather",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 240
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 14
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 290
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 15
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 25
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 350
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 18
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 50
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 400
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 23
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 75
+          },
+          {
+            "name": "Nightmare Shard",
+            "amount": 2
+          },
+          {
+            "name": "Corrupted Voidfeather",
+            "amount": 7
+          },
+          {
+            "name": "Twisted Shadowspur",
+            "amount": 6
+          },
+          {
+            "name": "Dark Bladefeather",
+            "amount": 6
+          }
+        ]
+      },
+      {
+        "level": "+11",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 20
+          }
+        ]
+      },
+      {
+        "level": "+12",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 25
+          }
+        ]
+      },
+      {
+        "level": "+13",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 30
+          }
+        ]
+      },
+      {
+        "level": "+14",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 35
+          }
+        ]
+      },
+      {
+        "level": "+15",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sovereign's Sceptres",
+    "type": "aether strikers",
+    "crafting": [
+      {
+        "level": "Base",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 150
+          },
+          {
+            "name": "Aether Thorn",
+            "amount": 4
+          },
+          {
+            "name": "Caudal Thorn",
+            "amount": 2
+          },
+          {
+            "name": "Splintered Antler",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "level": "+1",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 40
+          },
+          {
+            "name": "Terra Orb",
+            "amount": 7
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 60
+          },
+          {
+            "name": "Terra Orb",
+            "amount": 7
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 100
+          },
+          {
+            "name": "Terra Orb",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 140
+          },
+          {
+            "name": "Terra Orb",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 160
+          },
+          {
+            "name": "Terra Orb",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 220
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 12
+          },
+          {
+            "name": "Vital Thorn",
+            "amount": 5
+          },
+          {
+            "name": "Vinetooth",
+            "amount": 2
+          },
+          {
+            "name": "Caudal Thorn",
+            "amount": 2
+          },
+          {
+            "name": "Terra Orb",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 240
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 15
+          },
+          {
+            "name": "Terra Orb",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 290
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 18
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 20
+          },
+          {
+            "name": "Terra Orb",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 350
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 21
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 40
+          },
+          {
+            "name": "Terra Orb",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 400
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 24
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 60
+          },
+          {
+            "name": "Thornsoul Shard",
+            "amount": 2
+          },
+          {
+            "name": "Bramblespur",
+            "amount": 6
+          },
+          {
+            "name": "Terra Orb",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+11",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 20
+          }
+        ]
+      },
+      {
+        "level": "+12",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 25
+          }
+        ]
+      },
+      {
+        "level": "+13",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 30
+          }
+        ]
+      },
+      {
+        "level": "+14",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 35
+          }
+        ]
+      },
+      {
+        "level": "+15",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Stalker's Scorn",
+    "type": "aether strikers",
+    "crafting": [
+      {
+        "level": "Base",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 150
+          },
+          {
+            "name": "Rifthide",
+            "amount": 4
+          },
+          {
+            "name": "Apex Riftfang",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "level": "+1",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 40
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 6
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 60
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 100
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 140
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 160
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 220
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 13
+          },
+          {
+            "name": "Unstable Nullhide",
+            "amount": 5
+          },
+          {
+            "name": "Apex Riftfang",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 240
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 14
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 290
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 15
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 25
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 350
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 18
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 50
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 400
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 23
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 75
+          },
+          {
+            "name": "Riftsoul Shard",
+            "amount": 2
+          },
+          {
+            "name": "Unstable Nullhide",
+            "amount": 7
+          },
+          {
+            "name": "Apex Riftfang",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "level": "+11",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 20
+          }
+        ]
+      },
+      {
+        "level": "+12",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 25
+          }
+        ]
+      },
+      {
+        "level": "+13",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 30
+          }
+        ]
+      },
+      {
+        "level": "+14",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 35
+          }
+        ]
+      },
+      {
+        "level": "+15",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Valomyr's Visions",
+    "type": "aether strikers",
+    "crafting": [
+      {
+        "level": "Base",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 150
+          },
+          {
+            "name": "Valomyr Hide",
+            "amount": 4
+          },
+          {
+            "name": "Unstable Tailspike",
+            "amount": 2
+          },
+          {
+            "name": "Apocalypse Horn",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "level": "+1",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 40
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 6
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 60
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 100
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 140
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 160
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 220
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 13
+          },
+          {
+            "name": "Fractal Hide",
+            "amount": 5
+          },
+          {
+            "name": "Protean Fang",
+            "amount": 2
+          },
+          {
+            "name": "Unstable Tailspike",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 240
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 14
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 290
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 15
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 25
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 350
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 18
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 50
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 400
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 23
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 75
+          },
+          {
+            "name": "Galactic Shard",
+            "amount": 2
+          },
+          {
+            "name": "Radiant Dewclaw",
+            "amount": 6
+          }
+        ]
+      },
+      {
+        "level": "+11",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 20
+          }
+        ]
+      },
+      {
+        "level": "+12",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 25
+          }
+        ]
+      },
+      {
+        "level": "+13",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 30
+          }
+        ]
+      },
+      {
+        "level": "+14",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 35
+          }
+        ]
+      },
+      {
+        "level": "+15",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Brawlers of Boreus",
+    "type": "aether strikers",
+    "crafting": [
+      {
+        "level": "Base",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 150
+          },
+          {
+            "name": "Boreus Hide",
+            "amount": 3
+          },
+          {
+            "name": "Hoof Chip",
+            "amount": 4
+          }
+        ]
+      },
+      {
+        "level": "+1",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 40
+          },
+          {
+            "name": "Frost Orb",
+            "amount": 7
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 60
+          },
+          {
+            "name": "Frost Orb",
+            "amount": 7
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 100
+          },
+          {
+            "name": "Frost Orb",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 140
+          },
+          {
+            "name": "Frost Orb",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 160
+          },
+          {
+            "name": "Frost Orb",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 220
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 12
+          },
+          {
+            "name": "Psionic Scale",
+            "amount": 4
+          },
+          {
+            "name": "Icy Hindscale",
+            "amount": 2
+          },
+          {
+            "name": "Frost Orb",
+            "amount": 9
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 240
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 15
+          },
+          {
+            "name": "Frost Orb",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 290
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 18
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 20
+          },
+          {
+            "name": "Frost Orb",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 350
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 21
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 40
+          },
+          {
+            "name": "Frost Orb",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 400
+          },
+          {
+            "name": "Dull Arcstone",
+            "amount": 24
+          },
+          {
+            "name": "Shining Arcstone",
+            "amount": 60
+          },
+          {
+            "name": "Dreadfrost Shard",
+            "amount": 2
+          },
+          {
+            "name": "Psionic Scale",
+            "amount": 6
+          },
+          {
+            "name": "Boreus Hide",
+            "amount": 8
+          },
+          {
+            "name": "Frost Orb",
+            "amount": 11
+          }
+        ]
+      },
+      {
+        "level": "+11",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 20
+          }
+        ]
+      },
+      {
+        "level": "+12",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 25
+          }
+        ]
+      },
+      {
+        "level": "+13",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 30
+          }
+        ]
+      },
+      {
+        "level": "+14",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 35
+          }
+        ]
+      },
+      {
+        "level": "+15",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 600
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mistral Currents",
+    "type": "aether strikers",
+    "crafting": [
+      {
+        "level": "+10",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 2
+          },
+          {
+            "name": "Jagged Shocktooth",
+            "amount": 6
+          },
+          {
+            "name": "Electric Tailspear",
+            "amount": 3
+          },
+          {
+            "name": "Voltaic Scale",
+            "amount": 1
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 25
+          },
+          {
+            "name": "Peerless Stormplate",
+            "amount": 20
+          },
+          {
+            "name": "Shard of the Eternal Storm",
+            "amount": 4
+          }
+        ]
+      },
+      {
+        "level": "+11",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 1600
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 20
+          },
+          {
+            "name": "Peerless Arcstone",
+            "amount": 20
+          }
+        ]
+      },
+      {
+        "level": "+12",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 1600
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 25
+          }
+        ]
+      },
+      {
+        "level": "+13",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 1600
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 30
+          }
+        ]
+      },
+      {
+        "level": "+14",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 1600
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 35
+          }
+        ]
+      },
+      {
+        "level": "+15",
+        "requirements": [
+          {
+            "name": "Rams",
+            "amount": 1600
+          },
+          {
+            "name": "Shock Orb",
+            "amount": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Recruit's Lantern",
     "type": "lantern",
     "crafting": [
