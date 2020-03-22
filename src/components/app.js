@@ -43,18 +43,18 @@ const getFilteredItems = ({itemList, filters}) => itemList
 
 const getAvailableLevels = (craftingList) => (['Not crafted', ...craftingList.map(c => c.level)])
 
-const addItemResources = ({itemList, filters}) => {
+const addItemReagents = ({itemList, filters}) => {
 	const accountableItems =itemList
 		.filter(({type, partType}) => filters.includes(partType ? partType : type))
 	return Object.values(accountableItems).reduce((acc, item) => {
-		Object.entries(item.remainingResources).forEach(([resourceName, resourceAmount]) => {
-			acc[resourceName] = (acc[resourceName] || 0) + resourceAmount
+		Object.entries(item.remainingReagents).forEach(([reagentName, reagentAmount]) => {
+			acc[reagentName] = (acc[reagentName] || 0) + reagentAmount
 		})
 		return acc
 	}, {})
 }
 
-const calculateResourceCost = ({craftingList, currentLevelIndex, allAvailableLevels}) => {
+const calculateReagentCost = ({craftingList, currentLevelIndex, allAvailableLevels}) => {
   const remainingLevels = allAvailableLevels.slice(currentLevelIndex+1)
   if(remainingLevels.length === 0){
     return []
@@ -81,7 +81,7 @@ const craftableItemsByName = craftableItems.reduce((acc, item) => {
 			...item,
 			currentLevelIndex,
 			availableLevels,
-			remainingResources: calculateResourceCost({
+			remainingReagents: calculateReagentCost({
 				craftingList: item.crafting,
 				currentLevelIndex,
 				allAvailableLevels: availableLevels
@@ -95,7 +95,7 @@ const initialFilters = filterNames.reduce((acc, f) => ({...acc, [f]: true}), {})
 const App = () => {
 	const [items, setItems] = useState(craftableItemsByName)
 	const [filters, setFilters] = useState(initialFilters)
-	const [totalRemainingResources, setTotalRemainingResources] = useState({})
+	const [totalRemainingReagents, setTotalRemainingReagents] = useState({})
 
 	const onFilterToggle = (event, filterName) => {
 		event.preventDefault();
@@ -108,7 +108,7 @@ const App = () => {
 			[name]: {
 				...items[name],
 				currentLevelIndex: levelIndex,
-				remainingResources: calculateResourceCost(({
+				remainingReagents: calculateReagentCost(({
 					craftingList: items[name].crafting,
 					currentLevelIndex: levelIndex,
 					allAvailableLevels: items[name].availableLevels
@@ -118,11 +118,11 @@ const App = () => {
 	}
 
 	useEffect(() => {
-		const totalResources = addItemResources({
+		const totalReagents = addItemReagents({
 			itemList: Object.values(items), 
 			filters: getActiveFilters(filters)
 		})
-		setTotalRemainingResources(totalResources)
+		setTotalRemainingReagents(totalReagents)
 	}, [items, filters])
 
 	const renderableItems = getFilteredItems({
@@ -136,7 +136,7 @@ const App = () => {
 			<Header
 				onFilterToggle={onFilterToggle} 
 				filters={filters} 
-				totalResources={totalRemainingResources}
+				totalReagents={totalRemainingReagents}
 			/>
 			<CraftableItemList 
 				items={renderableItems}

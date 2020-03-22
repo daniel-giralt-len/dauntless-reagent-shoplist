@@ -10,9 +10,9 @@ const CenteredListItem = styled.li`
   align-items: center;
 `
 
-const ResourceList = ({resources}) => {
+const ReagentList = ({reagents}) => {
   return (<ul>
-    {Object.entries(resources).map(([name, amount]) => {
+    {Object.entries(reagents).map(([name, amount]) => {
       const iconUrl = reagentsToIcons[name]
       !iconUrl && console.log(name)
       return (<CenteredListItem>
@@ -23,4 +23,4 @@ const ResourceList = ({resources}) => {
   </ul>)
 }
 
-export default ResourceList
+export default ReagentList

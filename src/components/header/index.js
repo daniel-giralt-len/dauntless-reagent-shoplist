@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import ResourceList from '../resourceList'
+import ReagentList from '../reagentList'
 import filterIcons from '../../assets/typesToIcons.json'
 
 const FilterIconImage = styled.img`
@@ -44,7 +44,7 @@ const FilterLabel = styled.label`
 
 const capitalize = string => string.charAt(0).toUpperCase() + string.slice(1);
 
-const Header = ({onFilterToggle, filters, totalResources}) => (
+const Header = ({onFilterToggle, filters, totalReagents}) => (
 	<FixedHeader>
 		<FilterList>
 			{Object.entries(filters).map(([name, isChecked]) => (
@@ -66,7 +66,7 @@ const Header = ({onFilterToggle, filters, totalResources}) => (
 		</FilterList>
 
 		<div>Total remaining:
-			<ResourceList resources={totalResources} />
+			<ReagentList reagents={totalReagents} />
 		</div>
 	</FixedHeader>
 );

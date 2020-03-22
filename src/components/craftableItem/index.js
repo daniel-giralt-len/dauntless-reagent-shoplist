@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import IntegerRange from '../integerRange'
-import ResourceList from '../resourceList'
+import ReagentList from '../reagentList'
 
 const ListItemWrapper = styled.div`
   display: grid;
@@ -11,7 +11,7 @@ const ListItemWrapper = styled.div`
 `
 
 const CraftableItem = ({item, onItemLevelChange}) => {
-  const {name, type, partType, remainingResources, currentLevelIndex, availableLevels} = item
+  const {name, type, partType, remainingReagents, currentLevelIndex, availableLevels} = item
   const onSliderChange = newLevel => onItemLevelChange({name, levelIndex: newLevel})
 	return (<ListItemWrapper>
     <div style={{gridArea: 'name'}}>{name}, {type} {partType && `(${partType})`}</div>
@@ -22,7 +22,7 @@ const CraftableItem = ({item, onItemLevelChange}) => {
         onSliderChange={onSliderChange}
       />
     </div>
-    <ResourceList resources={remainingResources} />
+    <ReagentList reagents={remainingReagents} />
   </ListItemWrapper>)
 };
 
