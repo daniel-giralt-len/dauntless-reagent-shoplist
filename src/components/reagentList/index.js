@@ -8,10 +8,17 @@ const ReagentIcon = styled.img`
 const CenteredListItem = styled.li`
   display: flex;
   align-items: center;
+  font: 0.9em;
+`
+
+const UnorderedListWrapper = styled.ul`
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 `
 
 const ReagentList = ({reagents}) => {
-  return (<ul>
+  return (<UnorderedListWrapper>
     {Object.entries(reagents).map(([name, amount]) => {
       const iconUrl = reagentsToIcons[name]
       !iconUrl && console.log(name)
@@ -20,7 +27,7 @@ const ReagentList = ({reagents}) => {
         {name} (x{amount})
         </CenteredListItem>)
     })}
-  </ul>)
+  </UnorderedListWrapper>)
 }
 
 export default ReagentList
