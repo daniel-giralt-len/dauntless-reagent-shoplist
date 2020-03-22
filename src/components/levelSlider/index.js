@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'preact/hooks'
 import styled from 'styled-components'
 
 const LevelSliderWrapper = styled.div`
@@ -13,14 +12,12 @@ const LevelValue = styled.div`
   width: 90px;
 `
 
-const LevelSlider = ({ range, onNumberChange }) => {
-  const [selectedIndex, setIndex] = useState(0)
-  const onDecrement = () => setIndex(Math.max(selectedIndex-1, 0))
-  const onIncrement = () => setIndex(Math.min(selectedIndex+1, range.length-1))
-  useEffect(() => onNumberChange && onNumberChange(selectedIndex), [selectedIndex])
+const LevelSlider = ({ range, index, onLevelChange }) => {
+  const onDecrement = () => onLevelChange(Math.max(index-1, 0))
+  const onIncrement = () => onLevelChange(Math.min(index+1, range.length-1))
   return (<LevelSliderWrapper>
     <button onClick={onDecrement}>-</button>
-    <LevelValue>{range[selectedIndex]}</LevelValue>
+    <LevelValue>{range[index]}</LevelValue>
     <button onClick={onIncrement}>+</button>
   </LevelSliderWrapper>)
 }

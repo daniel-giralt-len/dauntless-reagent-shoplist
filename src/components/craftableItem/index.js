@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 import LevelSlider from '../levelSlider'
 import RequirementsList from '../requirementsList'
-import { useState } from 'preact/hooks'
 
 const ListItemWrapper = styled.div`
   display: grid;
@@ -11,56 +10,16 @@ const ListItemWrapper = styled.div`
   border: 1px solid black;
 `
 
-const calculateResourceCost = (craftingList, currentLevel, allAvailableLevels) => {
-  const remainingLevels = allAvailableLevels.slice(currentLevel+1)
-  if(remainingLevels.length === 0){
-    return []
-  }
-  return craftingList.filter(c => remainingLevels.includes(c.level))
-    .reduce((acc, c) => {
-      c.requirements.forEach(({name, amount}) => {
-        acc[name] = acc[name] ? acc[name]+amount : amount
-      })
-      return acc
-    },{})
-}
-
-const getAvailableLevels = (craftingList) => craftingList.map(c => c.level)
-
-const CraftableItem = ({name, type, partType, crafting, onResourcesChange}) => {
-  const [remainingResources, setRemainingResources] = useState([])
-  const itemLevels = ['Not crafted', ...getAvailableLevels(crafting)]
-  const onLevelChange = newLevel => { 
-    const newRemainingResources = calculateResourceCost(crafting, newLevel, itemLevels)
-    setRemainingResources(newRemainingResources)
-    onResourcesChange(name, newRemainingResources)
-  }
+const CraftableItem = ({item, onLevelChange}) => {
+  const {name, type, partType, remainingResources, currentLevelIndex, availableLevels} = item
+  const onItemLevelChange = newLevel => onLevelChange({name, levelIndex: newLevel})
 	return (<ListItemWrapper>
     <div style={{gridArea: 'name'}}>{name}, {type} {partType && `(${partType})`}</div>
     <div style={{gridArea: 'current-level'}}>
-      <LevelSlider range={itemLevels} onNumberChange={onLevelChange} />
+      <LevelSlider index={currentLevelIndex} range={availableLevels} onLevelChange={onItemLevelChange} />
     </div>
     <RequirementsList resources={remainingResources} />
   </ListItemWrapper>)
 };
 
 export default CraftableItem;
-
-
-/**
-  "name": "Standard Barrel",
-  "type": "ostian repeaters",
-  "partType": "barrels",
-  "crafting": [
-    {
-      "level": "+1",
-      "requirements": [
-        {
-          "name": "Rams",
-          "amount": 20
-        }
-        ...
-      ],
-    },
-    ...
- */
