@@ -7,8 +7,8 @@
 	"war pike": "/assets/images/war_pike_icon.png",
 	"armor": "/assets/images/armor_icon.png",
 	"lantern": "/assets/images/lantern_icon.png",
-	"barrels": "/assets/images/ostian_repeaters_icon.png",
-  "chambers": "/assets/images/ostian_repeaters_icon.png",
-  "grips": "/assets/images/ostian_repeaters_icon.png",
-  "prisms": "/assets/images/ostian_repeaters_icon.png"
+	"barrels": "/assets/images/barrel_icon.png",
+  "chambers": "/assets/images/chamber_icon.png",
+  "grips": "/assets/images/grip_icon.png",
+  "prisms": "/assets/images/prism_icon.png"
 }
