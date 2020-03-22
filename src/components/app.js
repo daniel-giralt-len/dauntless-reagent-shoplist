@@ -1,17 +1,13 @@
-import craftableItems from '../assets/crafting.json'
-import CraftableItem from './craftableItem'
-import Header from './header'
 import { useState, useEffect } from 'preact/hooks'
-import styled from 'styled-components'
-import filterNames from '../assets/filters.json'
 
-const GridList = styled.ul`
-	margin-top: 100px;
-	list-style-type: none;
-	padding: 0;
-	display: grid;
-	grid-template-columns: repeat(auto-fit, 200px);
-`
+import CraftableItemList from './craftableItemList'
+import Header from './header'
+
+import craftableItems from '../assets/crafting.json'
+import filterNames from '../assets/filters.json'
+import CraftableItem from './craftableItem'
+
+
 
 const getAvailableLevels = (craftingList) => (['Not crafted', ...craftingList.map(c => c.level)])
 
@@ -105,15 +101,10 @@ const App = () => {
 				filters={filters} 
 				totalResources={totalRemainingResources}
 			/>
-			<GridList>
-				{Object.values(items).map(item =>
-					(<li>
-						<CraftableItem 
-							item={item}
-							onLevelChange={onLevelChange}
-						/>
-					</li>))}
-			</GridList>
+			<CraftableItemList 
+				items={items}
+				onLevelChange={onLevelChange}
+			/>
 		</div>
 	);
 }
