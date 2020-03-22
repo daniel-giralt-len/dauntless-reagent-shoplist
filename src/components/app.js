@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'preact/hooks'
 import styled from 'styled-components'
-import preactLocalStorage from 'preact-localstorage';
+import preactLocalStorage from 'preact-localstorage'
 
 import CraftableItemList from './craftableItemList'
 import Header from './header'
