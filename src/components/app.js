@@ -30,6 +30,10 @@ const GlobalStyle = createGlobalStyle`
 		padding: 0;
 		margin: 0;
 		font-family: Marcellus;
+		color: #FFF;
+		font-weight: bold;
+		text-shadow: #081d2b 2px 2px 3px;
+		font-size: 20px;
 		background: url(/assets/images/background_image.jpg);
 	}
 `;
