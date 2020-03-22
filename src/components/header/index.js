@@ -47,7 +47,7 @@ const ConfigButton = styled(DauntlessButton)`
 const turnAllFiltersTo = (filters, value) => Object.keys(filters).
 	reduce((acc, filter) => ({...acc, [filter]: value}), {})
 
-const Header = ({onFilterChange, filters}) => (
+const Header = ({onFilterChange, onSaveRequest, filters}) => (
 	<FixedHeader>
 		<FilterList>
 			Filters:
@@ -71,6 +71,7 @@ const Header = ({onFilterChange, filters}) => (
 		<ButtonList>
 			<ConfigButton checked onClick={e => onFilterChange(e, turnAllFiltersTo(filters, true))} >Show all</ConfigButton>
 			<ConfigButton onClick={e => onFilterChange(e, turnAllFiltersTo(filters, false))} >Hide all</ConfigButton>
+			<ConfigButton onClick={onSaveRequest} >Save</ConfigButton>
 		</ButtonList>
 	</FixedHeader>
 );
