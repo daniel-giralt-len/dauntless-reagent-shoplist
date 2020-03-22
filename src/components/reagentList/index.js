@@ -22,14 +22,18 @@ const UnorderedListWrapper = styled.ul`
   margin: 0;
 `
 
+const TextWrapper = styled.div`
+  margin-left: 2%;
+`
+
 const ReagentList = ({reagents, compact}) => {
   return (<UnorderedListWrapper compact={compact}>
     {Object.entries(reagents).map(([name, amount]) => {
       const iconUrl = reagentsToIcons[name]
       return (<CenteredListItem>
         <ReagentIcon src={iconUrl} />
-        {name} (x{amount})
-        </CenteredListItem>)
+        <TextWrapper>{amount} {name}</TextWrapper>
+      </CenteredListItem>)
     })}
   </UnorderedListWrapper>)
 }
