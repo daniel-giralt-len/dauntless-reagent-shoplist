@@ -37,7 +37,7 @@ const CraftableItem = ({item, onItemLevelChange}) => {
     <TitleWrapper>
       <div>{name}</div>
       <ItemTypeIcon
-        src={filterIcons[type]}
+        src={filterIcons[partType ? partType : type]}
         alt={partType ? `${type} (${partType})` : type}
       />
     </TitleWrapper>
