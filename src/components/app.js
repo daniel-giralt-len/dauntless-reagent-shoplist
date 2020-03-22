@@ -10,7 +10,7 @@ import filterNames from '../assets/filters.json'
 import GlobalStyle from '../globalStyle'
 
 const MainWrapper = styled.main`
-	margin-top: 70px;
+	margin-top: 110px;
 `
 
 const getFilteredItems = ({itemList, filters}) => itemList
@@ -77,9 +77,9 @@ const App = () => {
 	const [filters, setFilters] = useState(initialFilters)
 	const [totalRemainingReagents, setTotalRemainingReagents] = useState({})
 
-	const onFilterToggle = (event, filterName) => {
+	const onFilterChange = (event, newFilters) => {
 		event.preventDefault();
-		setFilters({...filters, [filterName]: !filters[filterName]})
+		setFilters({...filters, ...newFilters})
 	}
 
 	const onItemLevelChange = ({name, levelIndex}) => { 
@@ -114,7 +114,7 @@ const App = () => {
 		<div id="app">
 			<GlobalStyle />
 			<Header
-				onFilterToggle={onFilterToggle} 
+				onFilterChange={onFilterChange} 
 				filters={filters} 
 			/>
 			<MainWrapper>

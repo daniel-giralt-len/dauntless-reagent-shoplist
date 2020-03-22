@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import DauntlessSquare from '../dauntlessSquare'
+import DauntlessButton from '../dauntlessButton'
 
 const SliderWrapper = styled.div`
   display: flex;
@@ -14,12 +14,7 @@ const ValueWrapper = styled.div`
   font-size: 0.8em;
 `
 
-const ButtonWrapper = styled(DauntlessSquare)`
-  font-family: inherit;
-  color: inherit;
-  font-weight: inherit;
-  text-shadow: inherit;
-  font-size: inherit;
+const ButtonWrapper = styled(DauntlessButton)`
   width: 30px;
   height: 30px;
 `

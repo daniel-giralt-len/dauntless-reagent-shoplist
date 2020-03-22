@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import filterIcons from '../../assets/typesToIcons.json'
 import DauntlessSquare from '../dauntlessSquare'
+import DauntlessButton from '../dauntlessButton'
 
 const FilterIconImage = styled.img`
 	width: 40px;
@@ -17,11 +18,11 @@ const FixedHeader = styled.header`
 const FilterList = styled.ul`
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
 	list-style-type: none;
   padding: 0;
 	margin: 0;
 	margin-bottom: 15px;
-	align-items: center;
 	max-width: 900px;
 `
 
@@ -33,7 +34,20 @@ const FilterCheckbox = styled.input`
 	display: none;
 `
 
-const Header = ({onFilterToggle, filters}) => (
+const ButtonList = styled.div`
+	display: block;
+`
+
+const ConfigButton = styled(DauntlessButton)`
+	display: inline;
+	padding: 2px 6px;
+	margin-right: 10px;
+`
+
+const turnAllFiltersTo = (filters, value) => Object.keys(filters).
+	reduce((acc, filter) => ({...acc, [filter]: value}), {})
+
+const Header = ({onFilterChange, filters}) => (
 	<FixedHeader>
 		<FilterList>
 			Filters:
@@ -44,7 +58,7 @@ const Header = ({onFilterToggle, filters}) => (
 						id={name} 
 						name={name} 
 						aria-labelledby={name}
-						onChange={e => onFilterToggle(e, name)} 
+						onChange={e => onFilterChange(e, {[name]: !isChecked})} 
 						checked={isChecked} 
 						aria-checked={isChecked}
 					/>
@@ -54,6 +68,10 @@ const Header = ({onFilterToggle, filters}) => (
 				</FilterListItem>
 			))}
 		</FilterList>
+		<ButtonList>
+			<ConfigButton checked onClick={e => onFilterChange(e, turnAllFiltersTo(filters, true))} >Show all</ConfigButton>
+			<ConfigButton onClick={e => onFilterChange(e, turnAllFiltersTo(filters, false))} >Hide all</ConfigButton>
+		</ButtonList>
 	</FixedHeader>
 );
 
