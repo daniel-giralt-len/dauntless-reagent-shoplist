@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 import ResourceList from '../resourceList'
+import filterIcons from '../../assets/typesToIcons.json'
+
+const FilterIconImage = styled.img`
+	width: 40px;
+`
 
 const FixedHeader = styled.header`
 	/*position: fixed;*/
@@ -31,8 +36,10 @@ const FilterLabel = styled.label`
 		: `background: linear-gradient(180deg, #1d5d82, #115174);
 		border: 2px solid #376a82;`
 	}
-	border-radius: 12px;
-	padding: 10px;
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 `
 
 const capitalize = string => string.charAt(0).toUpperCase() + string.slice(1);
@@ -42,8 +49,18 @@ const Header = ({onFilterToggle, filters, totalResources}) => (
 		<FilterList>
 			{Object.entries(filters).map(([name, isChecked]) => (
 				<FilterListItem>
-					<FilterCheckbox type="checkbox" id={name} name={name} onChange={e => onFilterToggle(e, name)} checked={isChecked} />
-					<FilterLabel for={name} checked={isChecked}>{capitalize(name)}</FilterLabel>
+					<FilterCheckbox 
+						type="checkbox" 
+						id={name} 
+						name={name} 
+						aria-labelledby={name}
+						onChange={e => onFilterToggle(e, name)} 
+						checked={isChecked} 
+						aria-checked={isChecked}
+					/>
+					<FilterLabel for={name} checked={isChecked}>
+						<FilterIconImage src={filterIcons[name]} alt={name} title={name} />
+					</FilterLabel>
 				</FilterListItem>
 			))}
 		</FilterList>
