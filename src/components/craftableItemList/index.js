@@ -7,18 +7,20 @@ const GridList = styled.ul`
 	padding: 0;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, 200px);
-`
+` 
 
 const CraftableItemList = ({items, onItemLevelChange}) => (
-  <GridList>
-    {Object.values(items).map(item =>
-      (<li>
-        <CraftableItem 
-          item={item}
-          onItemLevelChange={onItemLevelChange}
-        />
-      </li>))}
-  </GridList>
+  <main>
+    <GridList>
+      {Object.values(items).map(item =>
+        (<li>
+          <CraftableItem 
+            item={item}
+            onItemLevelChange={onItemLevelChange}
+          />
+        </li>))}
+    </GridList>
+  </main>
 )
 
 export default CraftableItemList
