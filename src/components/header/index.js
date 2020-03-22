@@ -1,16 +1,17 @@
-import { h } from 'preact';
-import { Link } from 'preact-router/match';
-import style from './style.css';
+import styled from 'styled-components';
+
+const FixedHeader = styled.header`
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+`
 
 const Header = () => (
-	<header class={style.header}>
-		<h1>Preact App</h1>
-		<nav>
-			<Link activeClassName={style.active} href="/">Home</Link>
-			<Link activeClassName={style.active} href="/profile">Me</Link>
-			<Link activeClassName={style.active} href="/profile/john">John</Link>
-		</nav>
-	</header>
+	<FixedHeader>
+		<div>Filters</div>
+		<div>Total remaining</div>
+	</FixedHeader>
 );
 
 export default Header;

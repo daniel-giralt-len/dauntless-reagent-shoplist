@@ -3,12 +3,11 @@ import LevelSlider from '../levelSlider'
 import RequirementsList from '../requirementsList'
 import { useState } from 'preact/hooks'
 
-const ListItemWrapper = styled.li`
+const ListItemWrapper = styled.div`
   display: grid;
   grid-template-areas:
     "name"
     "current-level";
-  background: light-grey;
   border: 1px solid black;
 `
 
@@ -28,13 +27,13 @@ const calculateResourceCost = (craftingList, currentLevel, allAvailableLevels) =
 
 const getAvailableLevels = (craftingList) => craftingList.map(c => c.level)
 
-const CraftableItem = ({name, type, partType, crafting}) => {
+const CraftableItem = ({name, type, partType, crafting, onResourcesChange}) => {
   const [remainingResources, setRemainingResources] = useState([])
   const itemLevels = ['Not crafted', ...getAvailableLevels(crafting)]
   const onLevelChange = newLevel => { 
-    console.log(newLevel)
-    console.log(calculateResourceCost(crafting, newLevel, itemLevels))
-    setRemainingResources(calculateResourceCost(crafting, newLevel, itemLevels))
+    const newRemainingResources = calculateResourceCost(crafting, newLevel, itemLevels)
+    setRemainingResources(newRemainingResources)
+    onResourcesChange(name, newRemainingResources)
   }
 	return (<ListItemWrapper>
     <div style={{gridArea: 'name'}}>{name}, {type} {partType && `(${partType})`}</div>
