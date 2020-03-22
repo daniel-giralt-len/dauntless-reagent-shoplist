@@ -3,8 +3,14 @@ import styled from 'styled-components'
 
 const LevelSliderWrapper = styled.div`
   display: flex;
-  justify-direction: flex-row;
+  justify-content: flex-row;
   align-items: center;
+`
+
+const LevelValue = styled.div`
+  display: flex;
+  justify-content: center;
+  width: 90px;
 `
 
 const LevelSlider = ({ range, onNumberChange }) => {
@@ -14,7 +20,7 @@ const LevelSlider = ({ range, onNumberChange }) => {
   useEffect(() => onNumberChange && onNumberChange(selectedIndex), [selectedIndex])
   return (<LevelSliderWrapper>
     <button onClick={onDecrement}>-</button>
-    <div>{range[selectedIndex]}</div>
+    <LevelValue>{range[selectedIndex]}</LevelValue>
     <button onClick={onIncrement}>+</button>
   </LevelSliderWrapper>)
 }

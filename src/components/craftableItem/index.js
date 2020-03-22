@@ -30,7 +30,7 @@ const getAvailableLevels = (craftingList) => craftingList.map(c => c.level)
 
 const CraftableItem = ({name, type, partType, crafting}) => {
   const [remainingResources, setRemainingResources] = useState([])
-  const itemLevels = getAvailableLevels(crafting)
+  const itemLevels = ['Not crafted', ...getAvailableLevels(crafting)]
   const onLevelChange = newLevel => { 
     console.log(newLevel)
     console.log(calculateResourceCost(crafting, newLevel, itemLevels))
