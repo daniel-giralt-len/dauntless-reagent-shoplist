@@ -26,9 +26,8 @@ const ReagentList = ({reagents, compact}) => {
   return (<UnorderedListWrapper compact={compact}>
     {Object.entries(reagents).map(([name, amount]) => {
       const iconUrl = reagentsToIcons[name]
-      !iconUrl && console.log(name)
       return (<CenteredListItem>
-        {iconUrl && <ReagentIcon src={iconUrl} />}
+        <ReagentIcon src={iconUrl} />
         {name} (x{amount})
         </CenteredListItem>)
     })}

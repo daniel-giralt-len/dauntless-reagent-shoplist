@@ -55,7 +55,6 @@ const getActiveFilters = filters => Object.entries(filters)
 
 const cookieName = 'dauntless-shoplist.loadout'
 const cookieLoadout = preactLocalStorage.getObject(cookieName) || {}
-console.log(cookieLoadout)
 
 const craftableItemsByName = craftableItems.reduce((acc, item) => {
 	const currentLevelIndex = cookieLoadout[item.name] || 0
