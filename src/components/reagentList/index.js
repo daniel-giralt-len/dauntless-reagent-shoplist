@@ -12,13 +12,18 @@ const CenteredListItem = styled.li`
 `
 
 const UnorderedListWrapper = styled.ul`
+  ${({compact}) => compact && `
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 250px);
+    font-size: 0.8em;
+  `}
   list-style-type: none;
   padding: 0;
   margin: 0;
 `
 
-const ReagentList = ({reagents}) => {
-  return (<UnorderedListWrapper>
+const ReagentList = ({reagents, compact}) => {
+  return (<UnorderedListWrapper compact={compact}>
     {Object.entries(reagents).map(([name, amount]) => {
       const iconUrl = reagentsToIcons[name]
       !iconUrl && console.log(name)

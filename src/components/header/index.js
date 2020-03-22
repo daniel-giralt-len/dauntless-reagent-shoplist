@@ -15,11 +15,14 @@ const FixedHeader = styled.header`
 `
 
 const FilterList = styled.ul`
+	display: flex;
+	justify-content: space-around;
 	list-style-type: none;
   padding: 0;
 	margin: 0;
-	display: flex;
-	justify-content: space-around;
+	margin-bottom: 15px;
+	align-items: center;
+	max-width: 900px;
 `
 
 const FilterListItem = styled.li`
@@ -33,6 +36,7 @@ const FilterCheckbox = styled.input`
 const Header = ({onFilterToggle, filters, totalReagents}) => (
 	<FixedHeader>
 		<FilterList>
+			Filters:
 			{Object.entries(filters).map(([name, isChecked]) => (
 				<FilterListItem>
 					<FilterCheckbox 
@@ -52,7 +56,7 @@ const Header = ({onFilterToggle, filters, totalReagents}) => (
 		</FilterList>
 
 		<div>Total remaining:
-			<ReagentList reagents={totalReagents} />
+			<ReagentList reagents={totalReagents} compact />
 		</div>
 	</FixedHeader>
 );
