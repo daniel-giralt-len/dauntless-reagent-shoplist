@@ -3,7 +3,7 @@ import DauntlessSquare from '../dauntlessSquare'
 
 const SliderWrapper = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: ${({single}) => single ? 'center' : 'space-between'};
   align-items: center;
   margin: 0px 10px;
 `
@@ -25,6 +25,12 @@ const ButtonWrapper = styled(DauntlessSquare)`
 `
 
 const IntegerRange = ({ range, index, onSliderChange }) => {
+  if(range.length === 1){
+    return (<SliderWrapper single>
+      <ValueWrapper>{range[index]}</ValueWrapper>
+    </SliderWrapper>)
+  }
+
   const onDecrement = () => onSliderChange(Math.max(index-1, 0))
   const onIncrement = () => onSliderChange(Math.min(index+1, range.length-1))
   return (<SliderWrapper>

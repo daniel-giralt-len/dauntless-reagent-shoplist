@@ -16,7 +16,12 @@ const MainWrapper = styled.main`
 const getFilteredItems = ({itemList, filters}) => itemList
 		.filter(({type, partType}) => filters.includes(partType ? partType : type))
 
-const getAvailableLevels = (craftingList) => (['Not crafted', ...craftingList.map(c => c.level)])
+const getAvailableLevels = ({name, craftingList}) => {
+	if(name.includes('Recruit') || name.includes('Training')){
+		return ['Base']
+	}
+	return ['Not crafted', ...craftingList.map(c => c.level)]
+}
 
 const addItemReagents = ({itemList, filters}) => {
 	const accountableItems =itemList
@@ -49,7 +54,7 @@ const getActiveFilters = filters => Object.entries(filters)
 
 const craftableItemsByName = craftableItems.reduce((acc, item) => {
 	const currentLevelIndex = 0
-	const availableLevels = getAvailableLevels(item.crafting)
+	const availableLevels = getAvailableLevels({name: item.name, craftingList: item.crafting})
 	return {
 		...acc,
 		[item.name]: {
