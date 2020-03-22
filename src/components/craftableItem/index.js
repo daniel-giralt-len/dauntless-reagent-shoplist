@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import LevelSlider from '../levelSlider'
-import RequirementsList from '../requirementsList'
+import ResourceList from '../resourceList'
 
 const ListItemWrapper = styled.div`
   display: grid;
@@ -18,7 +18,7 @@ const CraftableItem = ({item, onLevelChange}) => {
     <div style={{gridArea: 'current-level'}}>
       <LevelSlider index={currentLevelIndex} range={availableLevels} onLevelChange={onItemLevelChange} />
     </div>
-    <RequirementsList resources={remainingResources} />
+    <ResourceList resources={remainingResources} />
   </ListItemWrapper>)
 };
 

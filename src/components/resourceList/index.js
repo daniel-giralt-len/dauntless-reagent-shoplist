@@ -1,4 +1,4 @@
-const RequirementsList = ({resources}) => {
+const ResourceList = ({resources}) => {
   return (<ul>
     {Object.entries(resources).map(([name, amount]) => {
       return (<li>Name: {name}, Amount: {amount}</li>)
@@ -6,4 +6,4 @@ const RequirementsList = ({resources}) => {
   </ul>)
 }
 
-export default RequirementsList
+export default ResourceList
