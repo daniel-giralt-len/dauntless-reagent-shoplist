@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import ReagentList from '../reagentList'
 import filterIcons from '../../assets/typesToIcons.json'
 import DauntlessSquare from '../dauntlessSquare'
 
@@ -8,10 +7,11 @@ const FilterIconImage = styled.img`
 `
 
 const FixedHeader = styled.header`
-	/*position: fixed;*/
+	position: fixed;
 	left: 0;
 	top: 0;
 	width: 100%;
+	margin: 10px;
 `
 
 const FilterList = styled.ul`
@@ -33,7 +33,7 @@ const FilterCheckbox = styled.input`
 	display: none;
 `
 
-const Header = ({onFilterToggle, filters, totalReagents}) => (
+const Header = ({onFilterToggle, filters}) => (
 	<FixedHeader>
 		<FilterList>
 			Filters:
@@ -54,10 +54,6 @@ const Header = ({onFilterToggle, filters, totalReagents}) => (
 				</FilterListItem>
 			))}
 		</FilterList>
-
-		<div>Total remaining:
-			<ReagentList reagents={totalReagents} compact />
-		</div>
 	</FixedHeader>
 );
 

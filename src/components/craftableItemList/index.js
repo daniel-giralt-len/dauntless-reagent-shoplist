@@ -12,17 +12,15 @@ const GridList = styled.ul`
 ` 
 
 const CraftableItemList = ({items, onItemLevelChange}) => (
-  <main>
-    <GridList>
-      {Object.values(items).map(item =>
-        (<li>
-          <CraftableItem 
-            item={item}
-            onItemLevelChange={onItemLevelChange}
-          />
-        </li>))}
-    </GridList>
-  </main>
+  <GridList>
+    {Object.values(items).map(item =>
+      (<li>
+        <CraftableItem 
+          item={item}
+          onItemLevelChange={onItemLevelChange}
+        />
+      </li>))}
+  </GridList>
 )
 
 export default CraftableItemList

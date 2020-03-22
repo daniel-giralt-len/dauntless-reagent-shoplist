@@ -1,11 +1,17 @@
 import { useState, useEffect } from 'preact/hooks'
+import styled from 'styled-components'
 
 import CraftableItemList from './craftableItemList'
 import Header from './header'
+import ReagentList from './reagentList'
 
 import craftableItems from '../assets/crafting.json'
 import filterNames from '../assets/filters.json'
 import GlobalStyle from '../globalStyle'
+
+const MainWrapper = styled.main`
+	margin-top: 70px;
+`
 
 const getFilteredItems = ({itemList, filters}) => itemList
 		.filter(({type, partType}) => filters.includes(partType ? partType : type))
@@ -105,12 +111,19 @@ const App = () => {
 			<Header
 				onFilterToggle={onFilterToggle} 
 				filters={filters} 
-				totalReagents={totalRemainingReagents}
 			/>
-			<CraftableItemList 
-				items={renderableItems}
-				onItemLevelChange={onItemLevelChange}
-			/>
+			<MainWrapper>
+				<div>Total remaining:
+					<ReagentList 
+						reagents={totalRemainingReagents} 
+						compact 
+					/>
+				</div>
+				<CraftableItemList 
+					items={renderableItems}
+					onItemLevelChange={onItemLevelChange}
+				/>
+			</MainWrapper>
 		</div>
 	);
 }
