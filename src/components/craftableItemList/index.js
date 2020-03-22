@@ -2,7 +2,6 @@ import CraftableItem from "../craftableItem"
 import styled from 'styled-components'
 
 const GridList = styled.ul`
-	margin-top: 100px;
 	list-style-type: none;
 	padding: 0;
 	display: grid;
