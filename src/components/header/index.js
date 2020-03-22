@@ -7,9 +7,16 @@ const FixedHeader = styled.header`
 	width: 100%;
 `
 
-const Header = () => (
+const Header = ({onFilterToggle, filters}) => (
 	<FixedHeader>
-		<div>Filters</div>
+		<div>Filters: 
+			<ul>
+				{Object.entries(filters).map(([name, isChecked]) => (<li>
+						<input type="checkbox" id={name} name={name} onChange={e => onFilterToggle(e, name)} checked={isChecked} />
+  					<label for={name}>{name}</label>
+					</li>))}
+			</ul>
+		</div>
 		<div>Total remaining</div>
 	</FixedHeader>
 );
