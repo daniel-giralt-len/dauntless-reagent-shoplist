@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import LevelSlider from '../levelSlider'
+import IntegerRange from '../integerRange'
 import ResourceList from '../resourceList'
 
 const ListItemWrapper = styled.div`
@@ -10,13 +10,17 @@ const ListItemWrapper = styled.div`
   border: 1px solid black;
 `
 
-const CraftableItem = ({item, onLevelChange}) => {
+const CraftableItem = ({item, onItemLevelChange}) => {
   const {name, type, partType, remainingResources, currentLevelIndex, availableLevels} = item
-  const onItemLevelChange = newLevel => onLevelChange({name, levelIndex: newLevel})
+  const onSliderChange = newLevel => onItemLevelChange({name, levelIndex: newLevel})
 	return (<ListItemWrapper>
     <div style={{gridArea: 'name'}}>{name}, {type} {partType && `(${partType})`}</div>
     <div style={{gridArea: 'current-level'}}>
-      <LevelSlider index={currentLevelIndex} range={availableLevels} onLevelChange={onItemLevelChange} />
+      <IntegerRange 
+        index={currentLevelIndex}
+        range={availableLevels}
+        onSliderChange={onSliderChange}
+      />
     </div>
     <ResourceList resources={remainingResources} />
   </ListItemWrapper>)

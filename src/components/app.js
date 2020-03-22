@@ -70,7 +70,7 @@ const App = () => {
 		setFilters({...filters, [filterName]: !filters[filterName]})
 	}
 
-	const onLevelChange = ({name, levelIndex}) => { 
+	const onItemLevelChange = ({name, levelIndex}) => { 
 		setItems({
 			...items,
 			[name]: {
@@ -103,7 +103,7 @@ const App = () => {
 			/>
 			<CraftableItemList 
 				items={items}
-				onLevelChange={onLevelChange}
+				onItemLevelChange={onItemLevelChange}
 			/>
 		</div>
 	);

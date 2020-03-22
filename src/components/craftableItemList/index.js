@@ -9,13 +9,13 @@ const GridList = styled.ul`
 	grid-template-columns: repeat(auto-fit, 200px);
 `
 
-const CraftableItemList = ({items, onLevelChange}) => (
+const CraftableItemList = ({items, onItemLevelChange}) => (
   <GridList>
     {Object.values(items).map(item =>
       (<li>
         <CraftableItem 
           item={item}
-          onLevelChange={onLevelChange}
+          onItemLevelChange={onItemLevelChange}
         />
       </li>))}
   </GridList>
