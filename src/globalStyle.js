@@ -27,7 +27,7 @@ const GlobalStyle = createGlobalStyle`
 		font-weight: bold;
 		text-shadow: #081d2b 2px 2px 3px;
 		font-size: 20px;
-		background: url(./assets/images/background_image.jpg);
+		background: url(./assets/background/background_image.jpg);
 	}
 `
 
