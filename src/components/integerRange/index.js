@@ -20,18 +20,15 @@ const ButtonWrapper = styled(DauntlessButton)`
 `
 
 const IntegerRange = ({ range, index, onSliderChange }) => {
-  if(range.length === 1){
-    return (<SliderWrapper single>
-      <ValueWrapper>{range[index]}</ValueWrapper>
-    </SliderWrapper>)
-  }
+  const onFirstValue = index === 0
+  const onLastValue = index === range.length-1
 
   const onDecrement = () => onSliderChange(Math.max(index-1, 0))
   const onIncrement = () => onSliderChange(Math.min(index+1, range.length-1))
   return (<SliderWrapper>
-    <ButtonWrapper checked as='button' onClick={onDecrement}>-</ButtonWrapper>
+    <ButtonWrapper hide={onFirstValue} checked as='button' onClick={onDecrement}>-</ButtonWrapper>
     <ValueWrapper>{range[index]}</ValueWrapper>
-    <ButtonWrapper checked as='button' onClick={onIncrement}>+</ButtonWrapper>
+    <ButtonWrapper hide={onLastValue} checked as='button' onClick={onIncrement}>+</ButtonWrapper>
   </SliderWrapper>)
 }
 

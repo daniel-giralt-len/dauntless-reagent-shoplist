@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 const DauntlessSquare = styled.button`
+	${({hide}) => hide && `opacity: 0;`}
+
 	${({checked}) => checked
 		? `background: linear-gradient(180deg, #aad7f6, #77b4da);
 		border: 2px solid #aad7f6;`
