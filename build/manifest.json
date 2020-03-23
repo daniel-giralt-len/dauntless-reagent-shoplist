@@ -1,0 +1,21 @@
+{
+  "name": "Dauntless Reagent Shoplist",
+  "short_name": "Dauntless Shoplist",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#376a82",
+  "theme_color": "#aad7f6",
+  "icons": [
+    {
+      "src": "./assets/icons/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./assets/icons/android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
