@@ -11,6 +11,11 @@ const FooterWrapper = styled.footer`
   text-shadow: none;
   padding: 2px 4px;
   border-top-left-radius: 4px;
+  text-align: right;
+  @media (max-width: 700px) {
+    font-size: 0.5em;
+    width: 100%;
+  }
 `
 
 const Footer = () => (
