@@ -5,6 +5,9 @@ import DauntlessButton from '../dauntlessButton'
 
 const FilterIconImage = styled.img`
 	width: 40px;
+	@media (max-width: 900px) {
+		width: 20px;
+	}
 `
 
 const FixedHeader = styled.header`
@@ -17,7 +20,7 @@ const FixedHeader = styled.header`
 
 const FilterList = styled.ul`
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	align-items: center;
 	list-style-type: none;
   padding: 0;
@@ -50,7 +53,6 @@ const turnAllFiltersTo = (filters, value) => Object.keys(filters).
 const Header = ({onFilterChange, onSaveRequest, filters}) => (
 	<FixedHeader>
 		<FilterList>
-			Filters:
 			{Object.entries(filters).map(([name, isChecked]) => (
 				<FilterListItem>
 					<FilterCheckbox 
