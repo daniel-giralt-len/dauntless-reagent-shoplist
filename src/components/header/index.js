@@ -39,6 +39,7 @@ const FilterCheckbox = styled.input`
 
 const ButtonList = styled.div`
 	display: block;
+	font: 0.8em;
 `
 
 const ConfigButton = styled(DauntlessButton)`
@@ -50,7 +51,7 @@ const ConfigButton = styled(DauntlessButton)`
 const turnAllFiltersTo = (filters, value) => Object.keys(filters).
 	reduce((acc, filter) => ({...acc, [filter]: value}), {})
 
-const Header = ({onFilterChange, onSaveRequest, filters}) => (
+const Header = ({onFilterChange, onSaveRequest, filters, onExpandAll, forceExpandReagents}) => (
 	<FixedHeader>
 		<FilterList>
 			{Object.entries(filters).map(([name, isChecked]) => (
@@ -74,6 +75,7 @@ const Header = ({onFilterChange, onSaveRequest, filters}) => (
 			<ConfigButton checked onClick={e => onFilterChange(e, turnAllFiltersTo(filters, true))} >Show all</ConfigButton>
 			<ConfigButton onClick={e => onFilterChange(e, turnAllFiltersTo(filters, false))} >Hide all</ConfigButton>
 			<ConfigButton onClick={onSaveRequest} >Save</ConfigButton>
+			{!forceExpandReagents && <ConfigButton onClick={onExpandAll} >Expand all</ConfigButton>}
 		</ButtonList>
 	</FixedHeader>
 );

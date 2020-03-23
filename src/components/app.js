@@ -83,6 +83,7 @@ const App = () => {
 	const [items, setItems] = useState(craftableItemsByName)
 	const [filters, setFilters] = useState(initialFilters)
 	const [totalRemainingReagents, setTotalRemainingReagents] = useState({})
+	const [forceExpandReagents, setForceExpandReagents] = useState(false)
 
 	const onFilterChange = (event, newFilters) => {
 		event.preventDefault();
@@ -133,6 +134,8 @@ const App = () => {
 			<Header
 				onFilterChange={onFilterChange} 
 				onSaveRequest={onSaveRequest}
+				onExpandAll={() => setForceExpandReagents(true)}
+				forceExpandReagents={forceExpandReagents}
 				filters={filters} 
 			/>
 			<MainWrapper>
@@ -145,6 +148,7 @@ const App = () => {
 				<CraftableItemList 
 					items={renderableItems}
 					onItemLevelChange={onItemLevelChange}
+					forceExpandReagents={forceExpandReagents}
 				/>
 			</MainWrapper>
 			<Footer/>

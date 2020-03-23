@@ -32,7 +32,7 @@ const ButtonWrapper = styled.div`
   justify-content: center;
 `
 
-const CraftableItem = ({item, onItemLevelChange}) => {
+const CraftableItem = ({item, onItemLevelChange, forceExpandReagents}) => {
   const [displayReagents, setDisplayReagents] = useState(false)
   const {name, type, partType, remainingReagents, currentLevelIndex, availableLevels} = item
   const onSliderChange = newLevel => onItemLevelChange({name, levelIndex: newLevel})
@@ -49,7 +49,7 @@ const CraftableItem = ({item, onItemLevelChange}) => {
         alt={partType ? `${type} (${partType})` : type}
       />
     </TitleWrapper>
-    {displayReagents
+    {(displayReagents || forceExpandReagents)
       ? (<ReagentList reagents={remainingReagents} />)
       : (
         <ButtonWrapper>

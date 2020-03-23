@@ -10,13 +10,14 @@ const GridList = styled.ul`
   column-gap: 5px;
 ` 
 
-const CraftableItemList = ({items, onItemLevelChange}) => (
+const CraftableItemList = ({items, onItemLevelChange, forceExpandReagents}) => (
   <GridList>
     {Object.values(items).map(item =>
       (<li>
         <CraftableItem 
           item={item}
           onItemLevelChange={onItemLevelChange}
+          forceExpandReagents={forceExpandReagents}
         />
       </li>))}
   </GridList>
