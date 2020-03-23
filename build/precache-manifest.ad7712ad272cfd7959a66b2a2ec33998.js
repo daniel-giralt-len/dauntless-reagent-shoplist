@@ -732,19 +732,31 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/reagents/Wrathwort_Icon.png"
   },
   {
-    "revision": "aa1da73de2d29e32fdc6",
-    "url": "/bundle.08d1c.esm.js"
+    "revision": "a5a0d6024b3f6f886f2a",
+    "url": "/bundle.a5a0d.js"
   },
   {
-    "revision": "aa1da73de2d29e32fdc6",
+    "revision": "a5a0d6024b3f6f886f2a",
     "url": "/bundle.d498b.css"
   },
   {
-    "revision": "932219795a19933d93f5070643249787",
+    "revision": "d217404ee9e171870d5b8ad7bb790cc1",
     "url": "/index.html"
   },
   {
     "revision": "09446198657efe85c470",
-    "url": "/polyfills.a34c8.esm.js"
+    "url": "/polyfills.09446.js"
+  },
+  {
+    "revision": "144c6ff1323d2d15182a7d2af08d027e",
+    "url": "/sw-debug.js"
+  },
+  {
+    "revision": "86c4809e81462f302926753b989c61e5",
+    "url": "/sw-esm.js"
+  },
+  {
+    "revision": "bfc5bd18885255982238f3628770f48d",
+    "url": "/sw.js"
   }
 ]);
