@@ -1,14 +1,14 @@
 {
-  "axe": "./assets/images/axes_icon.png",
-	"chain blades": "./assets/images/chain_blades_icon.png",
-	"hammer": "./assets/images/hammers_icon.png",
-	"aether strikers": "./assets/images/strikers_icon.png",
-	"sword": "./assets/images/swords_icon.png",
-	"war pike": "./assets/images/war_pike_icon.png",
-	"armor": "./assets/images/armor_icon.png",
-	"lantern": "./assets/images/lantern_icon.png",
-	"barrels": "./assets/images/barrel_icon.png",
-  "chambers": "./assets/images/chamber_icon.png",
-  "grips": "./assets/images/grip_icon.png",
-  "prisms": "./assets/images/prism_icon.png"
+  "axe": "./assets/equipment/axes_icon.png",
+	"chain blades": "./assets/equipment/chain_blades_icon.png",
+	"hammer": "./assets/equipment/hammers_icon.png",
+	"aether strikers": "./assets/equipment/strikers_icon.png",
+	"sword": "./assets/equipment/swords_icon.png",
+	"war pike": "./assets/equipment/war_pike_icon.png",
+	"armor": "./assets/equipment/armor_icon.png",
+	"lantern": "./assets/equipment/lantern_icon.png",
+	"barrels": "./assets/equipment/barrel_icon.png",
+  "chambers": "./assets/equipment/chamber_icon.png",
+  "grips": "./assets/equipment/grip_icon.png",
+  "prisms": "./assets/equipment/prism_icon.png"
 }
