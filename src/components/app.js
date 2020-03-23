@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'preact/hooks'
 import styled from 'styled-components'
-import preactLocalStorage from 'preact-localstorage'
 
 import CraftableItemList from './craftableItemList'
 import Header from './header'
@@ -55,7 +54,10 @@ const getActiveFilters = filters => Object.entries(filters)
 	.map(([filterName]) => filterName)
 
 const cookieName = 'dauntless-shoplist.loadout'
-const cookieLoadout = preactLocalStorage.getObject(cookieName) || {}
+let cookieLoadout = {}
+if(typeof window !== 'undefined'){
+	cookieLoadout = JSON.parse(localStorage.getItem(cookieName)) || {}
+}
 
 const craftableItemsByName = craftableItems.reduce((acc, item) => {
 	const currentLevelIndex = cookieLoadout[item.name] || 0
@@ -103,9 +105,13 @@ const App = () => {
 	}
 
 	const onSaveRequest = () => {
+		if(typeof window === undefined){
+			console.warn('No window, cannot save.')
+			return
+		}
 		const currentLoadout = Object.values(items).
 			reduce((acc, {name, currentLevelIndex}) => ({...acc, [name]: currentLevelIndex}), {})
-			preactLocalStorage.setObject(cookieName, currentLoadout)
+			localStorage.setItem(cookieName, JSON.stringify(currentLoadout))
 	}
 
 	useEffect(() => {

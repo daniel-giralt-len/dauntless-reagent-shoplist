@@ -37,9 +37,7 @@
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
-    "js-cookie": "^2.2.1",
     "preact": "^10.3.2",
-    "preact-localstorage": "^1.0.2",
     "preact-render-to-string": "^5.1.4",
     "preact-router": "^3.2.1",
     "request": "^2.88.2",
