@@ -1,6 +1,10 @@
+import { useState } from 'preact/hooks'
 import styled from 'styled-components'
+
 import IntegerRange from '../integerRange'
 import ReagentList from '../reagentList'
+import DauntlessButton from '../dauntlessButton'
+
 import filterIcons from '../../assets/typesToIcons.json'
 
 const ItemTypeIcon = styled.img`
@@ -23,17 +27,21 @@ const TitleWrapper = styled.h2`
   font-size: 1.1em;
 `
 
+const ButtonWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+`
+
 const CraftableItem = ({item, onItemLevelChange}) => {
+  const [displayReagents, setDisplayReagents] = useState(false)
   const {name, type, partType, remainingReagents, currentLevelIndex, availableLevels} = item
   const onSliderChange = newLevel => onItemLevelChange({name, levelIndex: newLevel})
 	return (<ListItemWrapper>
-    <div>
-      <IntegerRange 
-        index={currentLevelIndex}
-        range={availableLevels}
-        onSliderChange={onSliderChange}
-      />
-    </div>
+    <IntegerRange 
+      index={currentLevelIndex}
+      range={availableLevels}
+      onSliderChange={onSliderChange}
+    />
     <TitleWrapper>
       <div>{name}</div>
       <ItemTypeIcon
@@ -41,7 +49,15 @@ const CraftableItem = ({item, onItemLevelChange}) => {
         alt={partType ? `${type} (${partType})` : type}
       />
     </TitleWrapper>
-    <ReagentList reagents={remainingReagents} />
+    {displayReagents
+      ? (<ReagentList reagents={remainingReagents} />)
+      : (
+        <ButtonWrapper>
+          <DauntlessButton checked onClick={() => setDisplayReagents(true)}>
+            Show reagents
+          </DauntlessButton>
+        </ButtonWrapper>)
+    }
   </ListItemWrapper>)
 };
 
