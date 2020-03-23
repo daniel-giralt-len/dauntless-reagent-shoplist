@@ -39,7 +39,10 @@ const FilterCheckbox = styled.input`
 
 const ButtonList = styled.div`
 	display: block;
-	font: 0.8em;
+
+	@media (max-width: 600px){
+		font-size: 0.8em;
+	}
 `
 
 const ConfigButton = styled(DauntlessButton)`
