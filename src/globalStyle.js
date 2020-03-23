@@ -28,6 +28,9 @@ const GlobalStyle = createGlobalStyle`
 		text-shadow: #081d2b 2px 2px 3px;
 		font-size: 20px;
 		background: url(./assets/background/background_image.jpg);
+		@media (max-width: 1000px) {
+			background: url(./assets/background/background_image_small.jpg);
+		}
 	}
 `
 
