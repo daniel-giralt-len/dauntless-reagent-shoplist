@@ -32,7 +32,7 @@
     "per-env": "^1.0.2",
     "preact-cli": "^3.0.0-rc.6",
     "preact-render-spy": "^1.2.1",
-    "sharp": "^0.25.2",
+    "sharp": "^0.30.5",
     "sirv-cli": "^0.4.5"
   },
   "dependencies": {
